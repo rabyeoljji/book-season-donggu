@@ -12,7 +12,12 @@ export class ApiError<T = unknown> extends Error {
   }
 }
 
-type ParseStrategy = "json" | "text" | "blob" | "arrayBuffer" | "response";
+export type ParseStrategy =
+  | "json"
+  | "text"
+  | "blob"
+  | "arrayBuffer"
+  | "response";
 
 export interface FetchClientOptions<P extends ParseStrategy = "json">
   extends RequestInit {
