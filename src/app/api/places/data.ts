@@ -20,6 +20,7 @@ export async function loadPlaces(): Promise<PlacesResponse> {
 const normalizePlace = (place: Place): Place => ({
   ...place,
   nearbyStops: place.nearbyStops ?? [],
+  images: place.images ?? (place.imageUrl ? [place.imageUrl] : []),
   links: place.links ?? [],
   tags: place.tags ?? [],
 });

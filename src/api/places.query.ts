@@ -11,7 +11,7 @@ import { getPlaceById, getPlaces } from "./places.api";
 
 export const placesQueryKeys = {
   ALL: ["places"] as const,
-  DETAIL: (id: string | null) => ["places", id] as const,
+  DETAIL: (id: number | null) => ["places", id] as const,
 };
 
 type PlacesQueryKey = typeof placesQueryKeys.ALL;
@@ -37,17 +37,17 @@ type PlaceQueryOptions<TData = Place> = Omit<
 >;
 
 export const usePlaceQuery = <TData = Place>(
-  id: string | null,
+  id: number | null,
   options?: PlaceQueryOptions<TData>
 ): UseQueryResult<TData, ApiError> =>
   useQuery({
     queryKey: placesQueryKeys.DETAIL(id),
     queryFn: () => {
-      if (!id) {
+      if (id == null) {
         throw new Error("Place id is required");
       }
       return getPlaceById(id);
     },
-    enabled: Boolean(id),
+    enabled: id != null,
     ...options,
   });

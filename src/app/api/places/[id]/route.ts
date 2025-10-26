@@ -5,15 +5,25 @@ import { loadPlaces } from "../data";
 const CACHE_CONTROL_HEADER = "s-maxage=600, stale-while-revalidate=86400";
 
 type RouteParams = {
-  params: {
+  params: Promise<{
     id: string;
-  };
+  }>;
 };
 
 export async function GET(_request: Request, { params }: RouteParams) {
   try {
+    const { id } = await params;
+    const targetId = Number(id);
+
+    if (!Number.isInteger(targetId)) {
+      return NextResponse.json(
+        { message: "Invalid place id" },
+        { status: 400 }
+      );
+    }
+
     const data = await loadPlaces();
-    const place = data.places.find((entry) => entry.id === params.id);
+    const place = data.places.find((entry) => entry.id === targetId);
 
     if (!place) {
       return NextResponse.json(

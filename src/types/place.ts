@@ -4,14 +4,13 @@ export type PlaceLink = {
 };
 
 export type Place = {
-  id: string;
+  id: number;
   name: string;
   address: string;
-  lat: number | null;
-  lng: number | null;
   hours?: string;
   nearbyStops?: string[];
   imageUrl?: string;
+  images?: string[];
   info?: string;
   links?: PlaceLink[];
   tags?: string[];
