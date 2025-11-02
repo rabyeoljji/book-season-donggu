@@ -1,5 +1,5 @@
-import styles from "./page.module.scss";
+import MainPage from "@/_pages/MainPage/MainPage";
 
 export default function Home() {
-  return <div>main page</div>;
+  return <MainPage />;
 }

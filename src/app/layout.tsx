@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "@/styles/global.scss";
+import Providers from "@/app/providers";
 
 export const metadata: Metadata = {
   title: "책의 계절, 동구",
@@ -9,12 +10,19 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  modal,
 }: Readonly<{
   children: React.ReactNode;
+  modal: React.ReactNode;
 }>) {
   return (
     <html lang="ko">
-      <body>{children}</body>
+      <body>
+        <Providers>
+          {children}
+          {modal}
+        </Providers>
+      </body>
     </html>
   );
 }
