@@ -14,6 +14,7 @@ export type KakaoMap = {
   panTo: (latLng: KakaoLatLng) => void;
   panBy: (x: number, y: number) => void;
   getCenter: () => KakaoLatLng;
+  getLevel: () => number;
   getProjection: () => KakaoProjection;
 };
 

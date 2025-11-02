@@ -20,6 +20,7 @@
         "실내는 신발 벗고 이용"
       ],
       "tags": ["도서관", "조용한"],
+      "category": "LIBRARY",
       "images": ["/images/place_0_1.jpg", "/images/place_0_2.jpg"]
     },
     {
@@ -36,6 +37,7 @@
         "동명동 커뮤니티센터와 푸른길분수공원 산수동문화마당에 공중화장실 있음"
       ],
       "tags": ["공원", "야외"],
+      "category": "OUTDOOR",
       "images": ["/images/place_1_1.jpg", "/images/place_1_2.jpg"]
     },
     {
@@ -47,6 +49,7 @@
       "nearbyStops": ["법원"],
       "info": ["클래식이 흘러나와 책 읽기 좋은 분위기", "주차장 있음"],
       "tags": ["카페", "조용한"],
+      "category": "CAFE",
       "images": ["/images/place_2_1.jpg", "/images/place_2_2.jpg"]
     },
     {
@@ -68,7 +71,9 @@
         }
       ],
       "tags": ["문화공간", "도서관"],
-      "images": ["/images/place_3_1.jpg", "/images/place_3_2.jpg"]
+      "category": "LIBRARY",
+      "images": ["/images/place_3_1.jpg", "/images/place_3_2.jpg"],
+      "imageSource": "인문도시 동구 온라인기록관 - ‘동구 인문학당’"
     },
     {
       "id": 4,
@@ -82,7 +87,9 @@
         "넓은 자료실과 열람실"
       ],
       "tags": ["도서관"],
-      "images": ["/images/place_4_1.jpg"]
+      "category": "LIBRARY",
+      "images": ["/images/place_4_1.jpg"],
+      "imageSource": "광주광역시교육청중앙도서관 공식홈페이지"
     },
     {
       "id": 5,
@@ -97,6 +104,7 @@
         "감각적인 분위기"
       ],
       "tags": ["카페", "복합문화공간"],
+      "category": "CAFE",
       "images": ["/images/place_5_1.jpg"]
     },
     {
@@ -112,6 +120,7 @@
         "주차장 무료 이용 가능"
       ],
       "tags": ["도서관", "레트로"],
+      "category": "LIBRARY",
       "images": ["/images/place_6_1.jpg", "/images/place_6_2.jpg"]
     },
     {
@@ -127,6 +136,7 @@
         "3시간 이후 30분당 3000원에 이용 가능"
       ],
       "tags": ["카페", "프랜차이즈"],
+      "category": "CAFE",
       "images": ["/images/place_7_1.jpg", "/images/place_7_2.jpg"]
     },
     {
@@ -141,6 +151,7 @@
         "애견 동반 가능(이동 가방 안에 있는 경우만 허용)"
       ],
       "tags": ["카페", "북카페", "애견동반"],
+      "category": "CAFE",
       "images": ["/images/place_8_1.jpg", "/images/place_8_2.jpg"]
     },
     {
@@ -156,6 +167,7 @@
         "전용 주차 공간 따로 없음(주변 공영주차장 이용 추천)"
       ],
       "tags": ["카페", "아지트"],
+      "category": "CAFE",
       "images": ["/images/place_9_1.jpg", "/images/place_9_2.jpg"]
     },
     {
@@ -171,6 +183,7 @@
         "전용 주차장 없음(주변 공영주차장 이용 추천)"
       ],
       "tags": ["카페", "북카페"],
+      "category": "CAFE",
       "images": ["/images/place_10_1.jpg", "/images/place_10_2.jpg"]
     },
     {
@@ -182,6 +195,7 @@
       "nearbyStops": ["지원2동행정복지센터입구", "소태역"],
       "info": ["한적한 분위기", "유동 인구 적음"],
       "tags": ["문화공간", "갤러리"],
+      "category": "ETC",
       "images": ["/images/place_11_1.jpg", "/images/place_11_2.jpg"]
     },
     {
@@ -197,6 +211,7 @@
         "수제 양갱 선물세트로 유명"
       ],
       "tags": ["카페", "디저트"],
+      "category": "CAFE",
       "images": ["/images/place_12_1.jpg", "/images/place_12_2.jpg"]
     },
     {
@@ -208,7 +223,9 @@
       "nearbyStops": ["남계촌"],
       "info": ["깨끗한 시설", "조용한 분위기", "내부 카페 있음"],
       "tags": ["도서관", "커뮤니티"],
-      "images": ["/images/place_13_1.jpg", "/images/place_13_2.jpg"]
+      "category": "LIBRARY",
+      "images": ["/images/place_13_1.jpg", "/images/place_13_2.jpg"],
+      "imageSource": "광주광역시 공식 블로그"
     },
     {
       "id": 14,
@@ -219,6 +236,7 @@
       "nearbyStops": ["동진맨션"],
       "info": ["차분하고 아늑한 분위기"],
       "tags": ["카페", "잔잔한"],
+      "category": "CAFE",
       "images": ["/images/place_14_1.jpg", "/images/place_14_2.jpg"]
     },
     {
@@ -230,6 +248,7 @@
       "nearbyStops": ["광주고/4.19역사관"],
       "info": ["헌책방 거리 주변에 위치", "예스럽고 아늑한 분위기"],
       "tags": ["카페", "레트로"],
+      "category": "CAFE",
       "images": ["/images/place_15_1.jpg", "/images/place_15_2.jpg"]
     },
     {
@@ -246,7 +265,9 @@
         "주차장 있음"
       ],
       "tags": ["도서관", "가족"],
-      "images": ["/images/place_16_1.jpg"]
+      "category": "LIBRARY",
+      "images": ["/images/place_16_1.jpg"],
+      "imageSource": "광주동구도서관 공식 홈페이지"
     },
     {
       "id": 17,
@@ -261,6 +282,7 @@
         "야외테라스가 있어서 날 좋을 때 테라스 이용도 가능"
       ],
       "tags": ["미술관", "카페"],
+      "category": "CAFE",
       "images": ["/images/place_17_1.jpg", "/images/place_17_2.jpg"]
     },
     {
@@ -275,7 +297,9 @@
         "외부·내부 시설 룸 예약 가능"
       ],
       "tags": ["티룸", "카페"],
-      "images": ["/images/place_18_1.jpg", "/images/place_18_2.jpg"]
+      "category": "CAFE",
+      "images": ["/images/place_18_1.jpg", "/images/place_18_2.jpg"],
+      "imageSource": "티 에디트 업체등록사진"
     },
     {
       "id": 19,
@@ -292,7 +316,9 @@
         "가까운 거리에 공영주차장 있음"
       ],
       "tags": ["독립서점", "북카페", "애견동반"],
-      "images": ["/images/place_19_1.jpg", "/images/place_19_2.jpg"]
+      "category": "CAFE",
+      "images": ["/images/place_19_1.jpg", "/images/place_19_2.jpg"],
+      "imageSource": "“유밍구”님의 블로그"
     },
     {
       "id": 20,
@@ -308,7 +334,9 @@
         "음료(생수 제외) 및 음식물 반입 금지"
       ],
       "tags": ["문화공간", "라운지"],
-      "images": ["/images/place_20_1.jpg", "/images/place_20_2.jpg"]
+      "category": "ETC",
+      "images": ["/images/place_20_1.jpg", "/images/place_20_2.jpg"],
+      "imageSource": "국립아시아문화전당 공식 홈페이지"
     },
     {
       "id": 21,
@@ -318,6 +346,7 @@
       "nearbyStops": ["동구청", "문화전당역 2번출구", "문화전당역 4번출구"],
       "info": ["서점 내부에 책 읽는 공간 존재", "다소 협소", "도서 굿즈 판매"],
       "tags": ["독립서점"],
+      "category": "ETC",
       "images": ["/images/place_21_1.jpg", "/images/place_21_2.jpg"]
     },
     {
@@ -336,6 +365,7 @@
         "국립아시아문화전당 주차장 1시간 무료"
       ],
       "tags": ["북카페", "독립서점"],
+      "category": "CAFE",
       "images": ["/images/place_22_1.jpg", "/images/place_22_2.jpg"]
     },
     {
@@ -353,6 +383,7 @@
         "흡연 / 음주 / 애완동물 출입 / 자전거 출입 / 오토바이 출입 / 스케이트보드 출입 / 노점상 및 취사행위 금지"
       ],
       "tags": ["문화공간", "야외"],
+      "category": "OUTDOOR",
       "images": ["/images/place_23_1.jpg", "/images/place_23_2.jpg"]
     },
     {
@@ -363,6 +394,7 @@
       "nearbyStops": ["전남여고", "북구청", "문화전당역 4번출구"],
       "info": ["그늘이 져 있어 봄·여름에 이용하기 좋음"],
       "tags": ["문화공간", "야외"],
+      "category": "OUTDOOR",
       "images": ["/images/place_24_1.jpg", "/images/place_24_2.jpg"]
     }
   ]

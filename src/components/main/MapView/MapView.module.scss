@@ -1,6 +1,6 @@
 .map {
   width: 100%;
-  height: 58dvh;
+  height: calc(100dvh - 328px);
   border-radius: 16px;
   background-color: var(--color-gray-100);
   box-shadow: 0 4px 28px rgba(0, 0, 0, 0.1);
@@ -12,7 +12,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 320px;
+  height: calc(100dvh - 328px);
   border-radius: 16px;
   background-color: var(--color-tertiary);
   color: var(--color-gray-800);
@@ -20,4 +20,14 @@
   font-size: var(--body-02-font-size, 14px);
   font-weight: var(--body-02-font-weight, 500);
   line-height: var(--body-02-line-height, 18px);
+}
+
+@media (min-width: 768px) {
+  .map {
+    height: calc(100dvh - 364px);
+  }
+
+  .error {
+    height: calc(100dvh - 364px);
+  }
 }

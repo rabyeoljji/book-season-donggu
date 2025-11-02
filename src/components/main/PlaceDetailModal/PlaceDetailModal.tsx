@@ -12,7 +12,7 @@ type PlaceDetailContentProps = { place: Place };
 
 export const PlaceDetailImages = ({ place }: PlaceDetailContentProps) => {
   return (
-    <>
+    <div className={styles.imageContainer}>
       {!!place.images?.length && (
         <div className={styles.imageGrid}>
           {place.images.map((image, index) => (
@@ -30,7 +30,10 @@ export const PlaceDetailImages = ({ place }: PlaceDetailContentProps) => {
           ))}
         </div>
       )}
-    </>
+      {place.imageSource && (
+        <p className={styles.imageSource}>사진 출처 : {place.imageSource}</p>
+      )}
+    </div>
   );
 };
 
