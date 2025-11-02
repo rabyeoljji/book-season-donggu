@@ -42,6 +42,11 @@ export default function MapView({ places }: MapViewProps) {
   const [loadError, setLoadError] = useState<string | null>(null);
 
   const overlayRef = useRef<KakaoCustomOverlay | null>(null);
+  const initialViewRef = useRef<{
+    lat: number;
+    lng: number;
+    level: number;
+  } | null>(null);
 
   const ensureOverlayVisible = (
     maps: KakaoMapsNamespace,
@@ -215,16 +220,31 @@ export default function MapView({ places }: MapViewProps) {
           return;
         }
 
-        if (markers.length === 1) {
-          const singlePosition = markers[0].getPosition();
-          if (singlePosition) {
-            mapInstance.setCenter(singlePosition);
+        const initialView = initialViewRef.current;
+        if (!initialView) {
+          if (markers.length === 1) {
+            const singlePosition = markers[0].getPosition();
+            if (singlePosition) {
+              mapInstance.setCenter(singlePosition);
+            }
+            mapInstance.setLevel(2);
+          } else {
+            mapInstance.setBounds(bounds);
           }
-          mapInstance.setLevel(2);
+
+          const currentCenter = mapInstance.getCenter();
+          initialViewRef.current = {
+            lat: currentCenter.getLat(),
+            lng: currentCenter.getLng(),
+            level: mapInstance.getLevel(),
+          };
           return;
         }
 
-        mapInstance.setBounds(bounds);
+        const { lat, lng, level } = initialView;
+        const initialCenter = createLatLng(maps, lat, lng);
+        mapInstance.setCenter(initialCenter);
+        mapInstance.setLevel(level);
       } catch (error) {
         console.error(error);
         if (!isUnmounted) {
