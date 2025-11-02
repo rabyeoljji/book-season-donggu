@@ -8,10 +8,12 @@ export type Place = {
   name: string;
   address: string;
   hours?: string;
+  closedDays?: string;
   nearbyStops?: string[];
   imageUrl?: string;
   images?: string[];
-  info?: string;
+  info?: string[];
+  forbidden?: string;
   links?: PlaceLink[];
   tags?: string[];
 };

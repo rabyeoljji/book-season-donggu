@@ -10,6 +10,38 @@ import styles from "./PlaceDetailModal.module.scss";
 
 type PlaceDetailContentProps = { place: Place };
 
+export const PlaceDetailImages = ({ place }: PlaceDetailContentProps) => {
+  return (
+    <>
+      {!!place.images?.length && (
+        <div className={styles.imageGrid}>
+          {place.images.map((image, index) => (
+            <div
+              key={`${place.id}-detail-${index}`}
+              className={styles.imageItem}
+            >
+              <Image
+                src={image}
+                alt={`${place.name} 이미지 ${index + 1}`}
+                fill
+                sizes="(max-width: 768px) 100vw, 320px"
+              />
+            </div>
+          ))}
+        </div>
+      )}
+    </>
+  );
+};
+
+export const PlaceDetailContainer = ({
+  children,
+}: {
+  children: React.ReactNode;
+}) => {
+  return <div className={styles.infoContainer}>{children}</div>;
+};
+
 export const PlaceDetailHeader = ({
   place,
   variant = "page",
@@ -35,28 +67,19 @@ export const PlaceDetailHeader = ({
 
 export const PlaceDetailContent = ({ place }: PlaceDetailContentProps) => (
   <>
-    {!!place.images?.length && (
-      <div className={styles.imageGrid}>
-        {place.images.map((image, index) => (
-          <div key={`${place.id}-detail-${index}`} className={styles.imageItem}>
-            <Image
-              src={image}
-              alt={`${place.name} 이미지 ${index + 1}`}
-              fill
-              sizes="(max-width: 768px) 100vw, 320px"
-            />
-          </div>
-        ))}
-      </div>
-    )}
-
     <section className={styles.section}>
-      <h3 className={styles.sectionTitle}>기본 정보</h3>
+      <h3 className={styles.sectionTitle}>🔍 기본 정보</h3>
       <dl className={styles.metaList}>
         {place.hours && (
           <div className={styles.metaRow}>
             <dt>운영 시간</dt>
             <dd>{place.hours}</dd>
+          </div>
+        )}
+        {place.closedDays && (
+          <div className={styles.metaRow}>
+            <dt>휴무</dt>
+            <dd>{place.closedDays}</dd>
           </div>
         )}
         {!!place.nearbyStops?.length && (
@@ -72,24 +95,38 @@ export const PlaceDetailContent = ({ place }: PlaceDetailContentProps) => (
           </div>
         )}
         {!!place.tags?.length && (
-          <div className={styles.metaRow}>
-            <dt>태그</dt>
-            <dd className={styles.chipList}>
-              {place.tags.map((tag) => (
-                <span key={tag} className={styles.chip}>
-                  #{tag}
-                </span>
-              ))}
-            </dd>
-          </div>
+          <>
+            <div className={styles.line} />
+            <div className={styles.metaRow}>
+              <dt>태그</dt>
+              <dd className={styles.chipList}>
+                {place.tags.map((tag) => (
+                  <span key={tag} className={styles.chip}>
+                    #{tag}
+                  </span>
+                ))}
+              </dd>
+            </div>
+          </>
         )}
       </dl>
     </section>
 
     {place.info && (
       <section className={styles.section}>
-        <h3 className={styles.sectionTitle}>공간 소개</h3>
-        <p className={styles.infoBox}>{place.info}</p>
+        <h3 className={styles.sectionTitle}>💡 공간 소개</h3>
+        <div className={styles.infoBox}>
+          {place.info.map((info) => (
+            <p key={info}>· {info}</p>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {place.forbidden && (
+      <section className={styles.section}>
+        <h3 className={styles.sectionTitle}>🚫 금지 사항</h3>
+        <div className={styles.infoBox}>{place.forbidden}</div>
       </section>
     )}
 
@@ -135,8 +172,11 @@ const PlaceDetailModal = ({ place }: PlaceDetailModalProps) => {
           <Dialog.Close className={styles.closeButton} aria-label="닫기">
             ×
           </Dialog.Close>
-          <PlaceDetailHeader place={place} variant="modal" />
-          <PlaceDetailContent place={place} />
+          <PlaceDetailImages place={place} />
+          <PlaceDetailContainer>
+            <PlaceDetailHeader place={place} variant="modal" />
+            <PlaceDetailContent place={place} />
+          </PlaceDetailContainer>
         </Dialog.Content>
       </Dialog.Portal>
     </Dialog.Root>

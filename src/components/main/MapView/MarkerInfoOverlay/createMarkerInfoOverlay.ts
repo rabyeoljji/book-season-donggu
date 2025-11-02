@@ -30,6 +30,12 @@ export const createMarkerInfoOverlayElement = ({
     hours.textContent = place.hours;
     container.append(hours);
   }
+  if (place.closedDays) {
+    const closedDays = document.createElement("p");
+    closedDays.className = styles.closedDays;
+    closedDays.textContent = place.closedDays;
+    container.append(closedDays);
+  }
 
   const buttonRow = document.createElement("div");
   buttonRow.className = styles.buttonRow;

@@ -1,17 +1,24 @@
 .page {
   display: flex;
   flex-direction: column;
-  gap: 48px;
-  padding: 48px 16px 96px;
+  gap: 40px;
+  padding: 98px 16px 96px;
   max-width: 960px;
   height: 100dvh;
   margin: 0 auto;
+
+  background-image: url("/images/flower_bookmark.png");
+  background-position: calc(50% - 15dvw) -2px;
+  background-repeat: no-repeat;
+  background-size: 250px;
 }
 
 @media (min-width: 768px) {
   .page {
-    padding: 64px 24px 120px;
+    padding: 100px 24px 120px;
     gap: 56px;
+
+    background-size: 300px;
   }
 }
 
