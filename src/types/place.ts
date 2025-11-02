@@ -19,6 +19,7 @@ export type Place = {
   links?: PlaceLink[];
   tags?: string[];
   category?: CATEGORY_VALUE;
+  imageSource?: string;
 };
 
 export type PlacesResponse = {

@@ -72,7 +72,8 @@
       ],
       "tags": ["문화공간", "도서관"],
       "category": "LIBRARY",
-      "images": ["/images/place_3_1.jpg", "/images/place_3_2.jpg"]
+      "images": ["/images/place_3_1.jpg", "/images/place_3_2.jpg"],
+      "imageSource": "인문도시 동구 온라인기록관 - ‘동구 인문학당’"
     },
     {
       "id": 4,
@@ -87,7 +88,8 @@
       ],
       "tags": ["도서관"],
       "category": "LIBRARY",
-      "images": ["/images/place_4_1.jpg"]
+      "images": ["/images/place_4_1.jpg"],
+      "imageSource": "광주광역시교육청중앙도서관 공식홈페이지"
     },
     {
       "id": 5,
@@ -222,7 +224,8 @@
       "info": ["깨끗한 시설", "조용한 분위기", "내부 카페 있음"],
       "tags": ["도서관", "커뮤니티"],
       "category": "LIBRARY",
-      "images": ["/images/place_13_1.jpg", "/images/place_13_2.jpg"]
+      "images": ["/images/place_13_1.jpg", "/images/place_13_2.jpg"],
+      "imageSource": "광주광역시 공식 블로그"
     },
     {
       "id": 14,
@@ -263,7 +266,8 @@
       ],
       "tags": ["도서관", "가족"],
       "category": "LIBRARY",
-      "images": ["/images/place_16_1.jpg"]
+      "images": ["/images/place_16_1.jpg"],
+      "imageSource": "광주동구도서관 공식 홈페이지"
     },
     {
       "id": 17,
@@ -294,7 +298,8 @@
       ],
       "tags": ["티룸", "카페"],
       "category": "CAFE",
-      "images": ["/images/place_18_1.jpg", "/images/place_18_2.jpg"]
+      "images": ["/images/place_18_1.jpg", "/images/place_18_2.jpg"],
+      "imageSource": "티 에디트 업체등록사진"
     },
     {
       "id": 19,
@@ -312,7 +317,8 @@
       ],
       "tags": ["독립서점", "북카페", "애견동반"],
       "category": "CAFE",
-      "images": ["/images/place_19_1.jpg", "/images/place_19_2.jpg"]
+      "images": ["/images/place_19_1.jpg", "/images/place_19_2.jpg"],
+      "imageSource": "“유밍구”님의 블로그"
     },
     {
       "id": 20,
@@ -329,7 +335,8 @@
       ],
       "tags": ["문화공간", "라운지"],
       "category": "ETC",
-      "images": ["/images/place_20_1.jpg", "/images/place_20_2.jpg"]
+      "images": ["/images/place_20_1.jpg", "/images/place_20_2.jpg"],
+      "imageSource": "국립아시아문화전당 공식 홈페이지"
     },
     {
       "id": 21,

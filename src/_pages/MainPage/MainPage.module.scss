@@ -118,7 +118,13 @@
 
 .mapContainer {
   position: relative;
-  min-height: 60dvh;
+  height: calc(100dvh - 328px);
+}
+
+@media (min-width: 768px) {
+  .mapContainer {
+    height: calc(100dvh - 364px);
+  }
 }
 
 .feedback {
@@ -135,7 +141,7 @@
 }
 
 .loading {
-  min-height: 60dvh;
+  height: calc(100dvh - 328px);
   background-color: var(--color-neutral);
   color: var(--color-gray-700);
 }
@@ -148,4 +154,10 @@
 .empty {
   background-color: var(--color-neutral);
   color: var(--color-gray-600);
+}
+
+@media (min-width: 768px) {
+  .loading {
+    height: calc(100dvh - 364px);
+  }
 }
