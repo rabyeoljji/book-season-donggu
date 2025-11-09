@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 import { loadKakaoMaps } from "@/common/utils/loadKakaoMaps";
 import type {
@@ -40,7 +40,10 @@ const createLatLng = (
 export default function MapView({ places }: MapViewProps) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const [loadError, setLoadError] = useState<string | null>(null);
-
+  const visiblePlaces = useMemo(
+    () => places.filter((place) => !place.disabled),
+    [places]
+  );
   const overlayRef = useRef<KakaoCustomOverlay | null>(null);
   const initialViewRef = useRef<{
     lat: number;
@@ -100,6 +103,7 @@ export default function MapView({ places }: MapViewProps) {
   };
 
   useEffect(() => {
+    const hasPlaces = visiblePlaces.length > 0;
     let isUnmounted = false;
     let mapInstance: KakaoMap | null = null;
     const markers: KakaoMarker[] = [];
@@ -130,9 +134,19 @@ export default function MapView({ places }: MapViewProps) {
           center: defaultCenter,
         });
 
+        if (!hasPlaces) {
+          const savedView = initialViewRef.current;
+          if (savedView) {
+            const savedCenter = createLatLng(maps, savedView.lat, savedView.lng);
+            mapInstance.setCenter(savedCenter);
+            mapInstance.setLevel(savedView.level);
+          }
+          return;
+        }
+
         const geocoder = new maps.services.Geocoder();
         const bounds = new maps.LatLngBounds();
-        const geocodePromises = places.map(
+        const geocodePromises = visiblePlaces.map(
           (place) =>
             new Promise<void>((resolve) => {
               geocoder.addressSearch(
@@ -264,7 +278,7 @@ export default function MapView({ places }: MapViewProps) {
       }
       mapInstance = null;
     };
-  }, [places]);
+  }, [visiblePlaces]);
 
   if (loadError) {
     return <div className={styles.error}>{loadError}</div>;

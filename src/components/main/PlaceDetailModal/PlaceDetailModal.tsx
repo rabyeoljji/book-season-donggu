@@ -52,10 +52,23 @@ export const PlaceDetailHeader = ({
   if (variant === "modal") {
     return (
       <header className={styles.header}>
-        <Dialog.Title className={styles.title}>{place.name}</Dialog.Title>
-        <Dialog.Description className={styles.address}>
-          {place.address}
-        </Dialog.Description>
+        <div className={styles.titleWrapper}>
+          <Dialog.Title className={styles.title}>{place.name}</Dialog.Title>
+          <Dialog.Description className={styles.address}>
+            {place.address}
+          </Dialog.Description>
+        </div>
+        {place.oneLineReview && (
+          <div className={styles.reviewBubbleContainer}>
+            <span>👱🏻‍♀️👱🏻‍♂️</span>
+            <div className={styles.reviewBubbleWrapper}>
+              <div className={styles.reviewBubbleBody}>
+                {place.oneLineReview}
+              </div>
+              <div className={styles.reviewBubbleTail} />
+            </div>
+          </div>
+        )}
       </header>
     );
   }
