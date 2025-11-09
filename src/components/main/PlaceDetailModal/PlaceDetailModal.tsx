@@ -176,7 +176,12 @@ const PlaceDetailModal = ({ place }: PlaceDetailModalProps) => {
 
   const handleOpenChange = (open: boolean) => {
     if (!open) {
-      router.back();
+      if (typeof window !== "undefined" && window.history.length > 1) {
+        router.back();
+        return;
+      }
+
+      router.replace("/");
     }
   };
 
