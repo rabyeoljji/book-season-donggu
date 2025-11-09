@@ -3,6 +3,7 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import { useState } from "react";
 
 import type { Place } from "@/types/place";
 
@@ -173,20 +174,36 @@ type PlaceDetailModalProps = {
 
 const PlaceDetailModal = ({ place }: PlaceDetailModalProps) => {
   const router = useRouter();
+  const [isOpen, setIsOpen] = useState(true);
 
   const handleOpenChange = (open: boolean) => {
-    if (!open) {
-      if (typeof window !== "undefined" && window.history.length > 2) {
-        router.back();
-        return;
-      }
+    setIsOpen(open);
 
-      router.replace("/");
+    if (open) {
+      return;
     }
+
+    if (typeof window === "undefined") {
+      router.replace("/");
+      return;
+    }
+
+    const state = window.history.state as { idx?: number } | null;
+    const hasNextHistory = typeof state?.idx === "number" && state.idx > 0;
+    const hasInternalReferrer =
+      Boolean(document.referrer) &&
+      document.referrer.startsWith(window.location.origin);
+
+    if (hasNextHistory || hasInternalReferrer) {
+      router.back();
+      return;
+    }
+
+    router.replace("/");
   };
 
   return (
-    <Dialog.Root open onOpenChange={handleOpenChange}>
+    <Dialog.Root open={isOpen} onOpenChange={handleOpenChange}>
       <Dialog.Portal>
         <Dialog.Overlay className={styles.overlay} />
         <Dialog.Content className={styles.content}>
