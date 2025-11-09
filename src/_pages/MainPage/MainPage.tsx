@@ -4,39 +4,34 @@ import { useMemo, useState } from "react";
 
 import { usePlacesQuery } from "@/api/places.query";
 import MapView from "@/components/main/MapView/MapView";
-import {
-  CATEGORY,
-  CATEGORY_NAME,
-  type CATEGORY_VALUE,
-} from "@/components/main/main.enum";
-import { category } from "@/components/main/main.constants";
+import { neighborhood } from "@/components/main/main.constants";
 
 import styles from "./MainPage.module.scss";
 import clsx from "clsx";
 
 const MainPage = () => {
   const { data, isLoading, isError, error } = usePlacesQuery();
-  const [selectedCategory, setSelectedCategory] = useState<CATEGORY_VALUE>(
-    CATEGORY.ALL
-  );
+  const [selectedNeighborhood, setSelectedNeighborhood] = useState("전체");
 
   const places = useMemo(() => data?.places ?? [], [data]);
 
   const filteredPlaces = useMemo(() => {
-    if (selectedCategory === CATEGORY.ALL) {
+    if (selectedNeighborhood === "전체") {
       return places;
     }
 
-    return places.filter(({ category: placeCategory }) => {
-      const normalizedCategory = placeCategory ?? CATEGORY.ETC;
-      return normalizedCategory === selectedCategory;
+    return places.filter(({ neighborhood: placeNeighborhood }) => {
+      const normalizedNeighborhood = placeNeighborhood ?? "";
+      return normalizedNeighborhood === selectedNeighborhood;
     });
-  }, [places, selectedCategory]);
+  }, [places, selectedNeighborhood]);
 
   const showLoading = isLoading;
   const showError = isError;
-  const showEmpty =
-    !showLoading && !showError && data && filteredPlaces.length === 0;
+  const showEmptyState =
+    !showLoading && !showError && filteredPlaces.length === 0;
+
+  const canShowMap = !showLoading && !showError;
 
   return (
     <main className={styles.page}>
@@ -52,18 +47,18 @@ const MainPage = () => {
 
       <section className={styles.mapSection}>
         <div className={styles.categoryFilter}>
-          {category.map((categoryKey) => (
+          {neighborhood.map((neighborhoodString) => (
             <button
-              key={categoryKey}
+              key={neighborhoodString}
               type="button"
-              aria-pressed={selectedCategory === categoryKey}
+              aria-pressed={selectedNeighborhood === neighborhoodString}
               className={clsx(
                 styles.categoryButton,
-                selectedCategory === categoryKey && styles.active
+                selectedNeighborhood === neighborhoodString && styles.active
               )}
-              onClick={() => setSelectedCategory(categoryKey)}
+              onClick={() => setSelectedNeighborhood(neighborhoodString)}
             >
-              {CATEGORY_NAME[categoryKey]}
+              {neighborhoodString}
             </button>
           ))}
         </div>
@@ -80,14 +75,15 @@ const MainPage = () => {
             </div>
           )}
 
-          {showEmpty && (
-            <div className={`${styles.feedback} ${styles.empty}`}>
-              선택한 카테고리에 해당하는 장소가 없습니다.
-            </div>
-          )}
-
-          {!showLoading && !showError && filteredPlaces.length > 0 && (
-            <MapView places={filteredPlaces} />
+          {canShowMap && (
+            <>
+              <MapView places={filteredPlaces} />
+              {showEmptyState && (
+                <div className={styles.mapOverlay} role="status" aria-live="polite">
+                  선택한 카테고리에 해당하는 장소 정보가 없습니다.
+                </div>
+              )}
+            </>
           )}
         </div>
       </section>

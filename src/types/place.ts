@@ -19,7 +19,10 @@ export type Place = {
   links?: PlaceLink[];
   tags?: string[];
   category?: CATEGORY_VALUE;
+  neighborhood?: string;
+  oneLineReview?: string;
   imageSource?: string;
+  disabled?: boolean;
 };
 
 export type PlacesResponse = {

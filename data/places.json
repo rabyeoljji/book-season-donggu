@@ -21,6 +21,8 @@
       ],
       "tags": ["도서관", "조용한"],
       "category": "LIBRARY",
+      "neighborhood": "지산동",
+      "oneLineReview": "열린 창문으로 불어오는 바람을 쐬며\n책을 읽으면 기분이 조크든요!",
       "images": ["/images/place_0_1.jpg", "/images/place_0_2.jpg"]
     },
     {
@@ -38,6 +40,8 @@
       ],
       "tags": ["공원", "야외"],
       "category": "OUTDOOR",
+      "neighborhood": "계림동",
+      "oneLineReview": "여름엔 푸른 녹음이, 가을엔 단풍이 물드는\n자연 속에서 야외 독서 어때요?",
       "images": ["/images/place_1_1.jpg", "/images/place_1_2.jpg"]
     },
     {
@@ -50,6 +54,8 @@
       "info": ["클래식이 흘러나와 책 읽기 좋은 분위기", "주차장 있음"],
       "tags": ["카페", "조용한"],
       "category": "CAFE",
+      "neighborhood": "지산동",
+      "oneLineReview": "흘러나오는 클래식과 함께\n분위기 한 잔 마실 수 있는 카페",
       "images": ["/images/place_2_1.jpg", "/images/place_2_2.jpg"]
     },
     {
@@ -72,6 +78,8 @@
       ],
       "tags": ["문화공간", "도서관"],
       "category": "LIBRARY",
+      "neighborhood": "동명동",
+      "oneLineReview": "서양식 구조와 일본식 건축,\n한국의 분위기가 어우러진 근현대 건물",
       "images": ["/images/place_3_1.jpg", "/images/place_3_2.jpg"],
       "imageSource": "인문도시 동구 온라인기록관 - ‘동구 인문학당’"
     },
@@ -88,8 +96,9 @@
       ],
       "tags": ["도서관"],
       "category": "LIBRARY",
-      "images": ["/images/place_4_1.jpg"],
-      "imageSource": "광주광역시교육청중앙도서관 공식홈페이지"
+      "neighborhood": "동명동",
+      "oneLineReview": "도서관의 정석! 군더더기 없이 깔끔한 도서관",
+      "images": ["/images/place_4_1.jpg", "/images/place_4_2.jpg"]
     },
     {
       "id": 5,
@@ -105,7 +114,10 @@
       ],
       "tags": ["카페", "복합문화공간"],
       "category": "CAFE",
-      "images": ["/images/place_5_1.jpg"]
+      "neighborhood": "지원동",
+      "oneLineReview": "",
+      "images": ["/images/place_5_1.jpg"],
+      "disabled": true
     },
     {
       "id": 6,
@@ -121,6 +133,8 @@
       ],
       "tags": ["도서관", "레트로"],
       "category": "LIBRARY",
+      "neighborhood": "산수동",
+      "oneLineReview": "1980년대 대학 도서관에 온 것 같은\n레트로한 분위기의 도서관!",
       "images": ["/images/place_6_1.jpg", "/images/place_6_2.jpg"]
     },
     {
@@ -137,6 +151,8 @@
       ],
       "tags": ["카페", "프랜차이즈"],
       "category": "CAFE",
+      "neighborhood": "산수동",
+      "oneLineReview": "그냥 스타벅스가 아니에요!\n무등산의 푸른 풍경과 함께 독서 어때요?",
       "images": ["/images/place_7_1.jpg", "/images/place_7_2.jpg"]
     },
     {
@@ -152,6 +168,8 @@
       ],
       "tags": ["카페", "북카페", "애견동반"],
       "category": "CAFE",
+      "neighborhood": "산수동",
+      "oneLineReview": "잔잔한 음악과 나무 인테리어, 차분해지는 기분",
       "images": ["/images/place_8_1.jpg", "/images/place_8_2.jpg"]
     },
     {
@@ -168,6 +186,8 @@
       ],
       "tags": ["카페", "아지트"],
       "category": "CAFE",
+      "neighborhood": "산수동",
+      "oneLineReview": "잔잔하고 아늑한 분위기에 파묻혀\n느낌 좋은 독서 어때요?",
       "images": ["/images/place_9_1.jpg", "/images/place_9_2.jpg"]
     },
     {
@@ -184,6 +204,8 @@
       ],
       "tags": ["카페", "북카페"],
       "category": "CAFE",
+      "neighborhood": "산수동",
+      "oneLineReview": "잔잔하면서도 힙한 분위기의 카페,\n느낌 좋은 밤의 무드!",
       "images": ["/images/place_10_1.jpg", "/images/place_10_2.jpg"]
     },
     {
@@ -196,7 +218,10 @@
       "info": ["한적한 분위기", "유동 인구 적음"],
       "tags": ["문화공간", "갤러리"],
       "category": "ETC",
-      "images": ["/images/place_11_1.jpg", "/images/place_11_2.jpg"]
+      "neighborhood": "",
+      "oneLineReview": "",
+      "images": ["/images/place_11_1.jpg", "/images/place_11_2.jpg"],
+      "disabled": true
     },
     {
       "id": 12,
@@ -212,6 +237,8 @@
       ],
       "tags": ["카페", "디저트"],
       "category": "CAFE",
+      "neighborhood": "지원동",
+      "oneLineReview": "고풍스러운 분위기의 카페,\n고풍스럽게 책 한 권 어때요?",
       "images": ["/images/place_12_1.jpg", "/images/place_12_2.jpg"]
     },
     {
@@ -224,6 +251,8 @@
       "info": ["깨끗한 시설", "조용한 분위기", "내부 카페 있음"],
       "tags": ["도서관", "커뮤니티"],
       "category": "LIBRARY",
+      "neighborhood": "지원동",
+      "oneLineReview": "동구만의 별마당 도서관, 책정원 도서관!\n책이 술술 읽혀요!!",
       "images": ["/images/place_13_1.jpg", "/images/place_13_2.jpg"],
       "imageSource": "광주광역시 공식 블로그"
     },
@@ -237,6 +266,8 @@
       "info": ["차분하고 아늑한 분위기"],
       "tags": ["카페", "잔잔한"],
       "category": "CAFE",
+      "neighborhood": "계림동",
+      "oneLineReview": "아이보리와 우드톤의 인테리어로\n차분하고 아늑한 분위기의 카페",
       "images": ["/images/place_14_1.jpg", "/images/place_14_2.jpg"]
     },
     {
@@ -249,6 +280,8 @@
       "info": ["헌책방 거리 주변에 위치", "예스럽고 아늑한 분위기"],
       "tags": ["카페", "레트로"],
       "category": "CAFE",
+      "neighborhood": "계림동",
+      "oneLineReview": "헌책방 유림서점의 정취를 가득 담은,\n과거와 현대 사이의 공간",
       "images": ["/images/place_15_1.jpg", "/images/place_15_2.jpg"]
     },
     {
@@ -266,6 +299,8 @@
       ],
       "tags": ["도서관", "가족"],
       "category": "LIBRARY",
+      "neighborhood": "계림동",
+      "oneLineReview": "작지만 알찬, 꿈이 자라는 도서관!",
       "images": ["/images/place_16_1.jpg"],
       "imageSource": "광주동구도서관 공식 홈페이지"
     },
@@ -283,6 +318,8 @@
       ],
       "tags": ["미술관", "카페"],
       "category": "CAFE",
+      "neighborhood": "지산동",
+      "oneLineReview": "미술관 관람 후에\n아늑한 분위기의 카페에서 책 한 점 어때요?",
       "images": ["/images/place_17_1.jpg", "/images/place_17_2.jpg"]
     },
     {
@@ -298,6 +335,8 @@
       ],
       "tags": ["티룸", "카페"],
       "category": "CAFE",
+      "neighborhood": "학동",
+      "oneLineReview": "고즈넉한 한옥 건물에서 즐기는\n차 한 잔과 함께 독서 테라피",
       "images": ["/images/place_18_1.jpg", "/images/place_18_2.jpg"],
       "imageSource": "티 에디트 업체등록사진"
     },
@@ -317,6 +356,8 @@
       ],
       "tags": ["독립서점", "북카페", "애견동반"],
       "category": "CAFE",
+      "neighborhood": "충장동",
+      "oneLineReview": "책방과 카페가 함께! 책도 사고, 책도 읽고!",
       "images": ["/images/place_19_1.jpg", "/images/place_19_2.jpg"],
       "imageSource": "“유밍구”님의 블로그"
     },
@@ -335,6 +376,8 @@
       ],
       "tags": ["문화공간", "라운지"],
       "category": "ETC",
+      "neighborhood": "충장동",
+      "oneLineReview": "책과 책을 좋아하는 사람들과 함께하는 문화공간",
       "images": ["/images/place_20_1.jpg", "/images/place_20_2.jpg"],
       "imageSource": "국립아시아문화전당 공식 홈페이지"
     },
@@ -347,6 +390,8 @@
       "info": ["서점 내부에 책 읽는 공간 존재", "다소 협소", "도서 굿즈 판매"],
       "tags": ["독립서점"],
       "category": "ETC",
+      "neighborhood": "동명동",
+      "oneLineReview": "다양한 책과 도서 굿즈를 판매하는\n느낌 좋은 책방에서 독서 어때요?",
       "images": ["/images/place_21_1.jpg", "/images/place_21_2.jpg"]
     },
     {
@@ -366,6 +411,8 @@
       ],
       "tags": ["북카페", "독립서점"],
       "category": "CAFE",
+      "neighborhood": "동명동",
+      "oneLineReview": "독서를 위한 공간이란 이런 곳일까? 북카페의 정석!",
       "images": ["/images/place_22_1.jpg", "/images/place_22_2.jpg"]
     },
     {
@@ -384,6 +431,8 @@
       ],
       "tags": ["문화공간", "야외"],
       "category": "OUTDOOR",
+      "neighborhood": "충장동",
+      "oneLineReview": "초록 잔디와 푸른 하늘 사이.\n날 좋은 오늘, 독서 피크닉 어때요?",
       "images": ["/images/place_23_1.jpg", "/images/place_23_2.jpg"]
     },
     {
@@ -395,6 +444,8 @@
       "info": ["그늘이 져 있어 봄·여름에 이용하기 좋음"],
       "tags": ["문화공간", "야외"],
       "category": "OUTDOOR",
+      "neighborhood": "충장동",
+      "oneLineReview": "더운 여름에도 놓칠 수 없는 야외독서,\n넓은 그늘 아래에서 책 읽기 어때요?",
       "images": ["/images/place_24_1.jpg", "/images/place_24_2.jpg"]
     }
   ]
