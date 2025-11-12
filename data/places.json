@@ -376,7 +376,7 @@
       ],
       "tags": ["문화공간", "라운지"],
       "category": "ETC",
-      "neighborhood": "충장동",
+      "neighborhood": "서남동",
       "oneLineReview": "책과 책을 좋아하는 사람들과 함께하는 문화공간",
       "images": ["/images/place_20_1.jpg", "/images/place_20_2.jpg"],
       "imageSource": "국립아시아문화전당 공식 홈페이지"
@@ -431,7 +431,7 @@
       ],
       "tags": ["문화공간", "야외"],
       "category": "OUTDOOR",
-      "neighborhood": "충장동",
+      "neighborhood": "서남동",
       "oneLineReview": "초록 잔디와 푸른 하늘 사이.\n날 좋은 오늘, 독서 피크닉 어때요?",
       "images": ["/images/place_23_1.jpg", "/images/place_23_2.jpg"]
     },
@@ -444,7 +444,7 @@
       "info": ["그늘이 져 있어 봄·여름에 이용하기 좋음"],
       "tags": ["문화공간", "야외"],
       "category": "OUTDOOR",
-      "neighborhood": "충장동",
+      "neighborhood": "서남동",
       "oneLineReview": "더운 여름에도 놓칠 수 없는 야외독서,\n넓은 그늘 아래에서 책 읽기 어때요?",
       "images": ["/images/place_24_1.jpg", "/images/place_24_2.jpg"]
     }
