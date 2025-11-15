@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "책의 계절, 동구",
+  "short_name": "책의 계절, 동구",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
