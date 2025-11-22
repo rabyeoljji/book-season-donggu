@@ -1,7 +1,11 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
+import { useQueryClient } from "@tanstack/react-query";
 
+import { getPlaceById } from "@/api/places.api";
+import { placesQueryKeys } from "@/api/places.query";
 import { loadKakaoMaps } from "@/common/utils/loadKakaoMaps";
 import type {
   KakaoCustomOverlay,
@@ -44,6 +48,8 @@ export default function MapView({ places }: MapViewProps) {
     () => places.filter((place) => !place.disabled),
     [places]
   );
+  const router = useRouter();
+  const queryClient = useQueryClient();
   const overlayRef = useRef<KakaoCustomOverlay | null>(null);
   const initialViewRef = useRef<{
     lat: number;
@@ -137,7 +143,11 @@ export default function MapView({ places }: MapViewProps) {
         if (!hasPlaces) {
           const savedView = initialViewRef.current;
           if (savedView) {
-            const savedCenter = createLatLng(maps, savedView.lat, savedView.lng);
+            const savedCenter = createLatLng(
+              maps,
+              savedView.lat,
+              savedView.lng
+            );
             mapInstance.setCenter(savedCenter);
             mapInstance.setLevel(savedView.level);
           }
@@ -183,6 +193,13 @@ export default function MapView({ places }: MapViewProps) {
 
                   maps.event.addListener(marker, "click", () => {
                     if (!mapInstance) return;
+
+                    void queryClient.prefetchQuery({
+                      queryKey: placesQueryKeys.DETAIL(place.id),
+                      queryFn: () => getPlaceById(place.id),
+                      staleTime: 5 * 60 * 1000,
+                    });
+                    void router.prefetch(`/places/${place.id}`);
 
                     if (overlayRef.current) {
                       overlayRef.current.setMap(null);

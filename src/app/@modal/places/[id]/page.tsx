@@ -8,6 +8,14 @@ type PageParams = {
   }>;
 };
 
+export async function generateStaticParams() {
+  const { places } = await loadPlaces();
+
+  return places.map((place) => ({
+    id: place.id.toString(),
+  }));
+}
+
 export default async function PlaceModalPage({ params }: PageParams) {
   const { id } = await params;
   const placeId = Number(id);
@@ -16,12 +24,5 @@ export default async function PlaceModalPage({ params }: PageParams) {
     notFound();
   }
 
-  const { places } = await loadPlaces();
-  const place = places.find((item) => item.id === placeId);
-
-  if (!place) {
-    notFound();
-  }
-
-  return <PlaceDetailModal place={place} />;
+  return <PlaceDetailModal id={placeId} />;
 }

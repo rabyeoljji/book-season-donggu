@@ -1,96 +1,28 @@
 "use client";
 
 import * as Dialog from "@radix-ui/react-dialog";
-import Image from "next/image";
-import { useRouter } from "next/navigation";
+import dynamic from "next/dynamic";
+import { notFound, useRouter } from "next/navigation";
 import { useState } from "react";
-import { useKeenSlider } from "keen-slider/react";
 
+import { usePlaceQuery } from "@/api/places.query";
 import type { Place } from "@/types/place";
 
 import styles from "./PlaceDetailModal.module.scss";
 
-type PlaceDetailContentProps = { place: Place };
+const PlaceDetailImages = dynamic(
+  () => import("./PlaceDetailImagesSlider/PlaceDetailImagesSlider"),
+  {
+    ssr: false,
+    loading: () => (
+      <div className={styles.imageContainer} aria-label="이미지 로딩 중">
+        <div className={styles.LoadingImage}>이미지 로딩 중</div>
+      </div>
+    ),
+  }
+);
 
-export const PlaceDetailImages = ({ place }: PlaceDetailContentProps) => {
-  const images = place.images ?? [];
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const [loaded, setLoaded] = useState(false);
-  const [sliderRef, instanceRef] = useKeenSlider<HTMLDivElement>({
-    initial: 0,
-    loop: true,
-    slideChanged: (slider) => setCurrentSlide(slider.track.details.rel),
-    created: () => setLoaded(true),
-  });
-
-  return (
-    <div className={styles.imageContainer}>
-      {!!images.length && (
-        <>
-          <div className={styles.sliderWrapper}>
-            <div
-              ref={sliderRef}
-              className={`keen-slider ${styles.slider}`}
-              aria-label={`${place.name} 이미지 슬라이더`}
-            >
-              {images.map((image, index) => (
-                <div
-                  key={`${place.id}-detail-${index}`}
-                  className={`keen-slider__slide ${styles.slide}`}
-                >
-                  <Image
-                    src={image}
-                    alt={`${place.name} 이미지 ${index + 1}`}
-                    fill
-                    sizes="(max-width: 768px) 100vw, 320px"
-                  />
-                </div>
-              ))}
-            </div>
-            {loaded && images.length > 1 && (
-              <>
-                <button
-                  type="button"
-                  aria-label="이전 이미지"
-                  className={`${styles.navButton} ${styles.navButtonPrev}`}
-                  onClick={() => instanceRef.current?.prev()}
-                >
-                  ‹
-                </button>
-                <button
-                  type="button"
-                  aria-label="다음 이미지"
-                  className={`${styles.navButton} ${styles.navButtonNext}`}
-                  onClick={() => instanceRef.current?.next()}
-                >
-                  ›
-                </button>
-              </>
-            )}
-            {loaded && images.length > 1 && (
-              <div className={styles.dots}>
-                {images.map((_, index) => (
-                  <button
-                    key={`${place.id}-dot-${index}`}
-                    type="button"
-                    aria-label={`${place.name} 이미지 ${index + 1}번으로 이동`}
-                    className={`${styles.dot} ${
-                      currentSlide === index ? styles.activeDot : ""
-                    }`}
-                    onClick={() => instanceRef.current?.moveToIdx(index)}
-                  />
-                ))}
-              </div>
-            )}
-          </div>
-        </>
-      )}
-      {place.imageSource && (
-        <p className={styles.imageSource}>사진 출처 : {place.imageSource}</p>
-      )}
-    </div>
-  );
-};
+type PlaceDetailContentProps = { place?: Place };
 
 export const PlaceDetailContainer = ({
   children,
@@ -108,12 +40,12 @@ export const PlaceDetailHeader = ({
     return (
       <header className={styles.header}>
         <div className={styles.titleWrapper}>
-          <Dialog.Title className={styles.title}>{place.name}</Dialog.Title>
+          <Dialog.Title className={styles.title}>{place?.name}</Dialog.Title>
           <Dialog.Description className={styles.address}>
-            {place.address}
+            {place?.address}
           </Dialog.Description>
         </div>
-        {place.oneLineReview && (
+        {place?.oneLineReview && (
           <div className={styles.reviewBubbleContainer}>
             <span>👱🏻‍♀️👱🏻‍♂️</span>
             <div className={styles.reviewBubbleWrapper}>
@@ -130,8 +62,8 @@ export const PlaceDetailHeader = ({
 
   return (
     <header className={styles.header}>
-      <h1 className={styles.title}>{place.name}</h1>
-      <p className={styles.address}>{place.address}</p>
+      <h1 className={styles.title}>{place?.name}</h1>
+      <p className={styles.address}>{place?.address}</p>
     </header>
   );
 };
@@ -141,19 +73,19 @@ export const PlaceDetailContent = ({ place }: PlaceDetailContentProps) => (
     <section className={styles.section}>
       <h3 className={styles.sectionTitle}>🔍 기본 정보</h3>
       <dl className={styles.metaList}>
-        {place.hours && (
+        {place?.hours && (
           <div className={styles.metaRow}>
             <dt>운영 시간</dt>
-            <dd>{place.hours}</dd>
+            <dd>{place?.hours}</dd>
           </div>
         )}
-        {place.closedDays && (
+        {place?.closedDays && (
           <div className={styles.metaRow}>
             <dt>휴무</dt>
-            <dd>{place.closedDays}</dd>
+            <dd>{place?.closedDays}</dd>
           </div>
         )}
-        {!!place.nearbyStops?.length && (
+        {!!place?.nearbyStops?.length && (
           <div className={styles.metaRow}>
             <dt>주변 정류장</dt>
             <dd className={styles.chipList}>
@@ -165,7 +97,7 @@ export const PlaceDetailContent = ({ place }: PlaceDetailContentProps) => (
             </dd>
           </div>
         )}
-        {!!place.tags?.length && (
+        {!!place?.tags?.length && (
           <>
             <div className={styles.line} />
             <div className={styles.metaRow}>
@@ -183,25 +115,25 @@ export const PlaceDetailContent = ({ place }: PlaceDetailContentProps) => (
       </dl>
     </section>
 
-    {place.info && (
+    {place?.info && (
       <section className={styles.section}>
         <h3 className={styles.sectionTitle}>💡 공간 소개</h3>
         <div className={styles.infoBox}>
-          {place.info.map((info) => (
+          {place?.info.map((info) => (
             <p key={info}>· {info}</p>
           ))}
         </div>
       </section>
     )}
 
-    {place.forbidden && (
+    {place?.forbidden && (
       <section className={styles.section}>
         <h3 className={styles.sectionTitle}>🚫 금지 사항</h3>
         <div className={styles.infoBox}>{place.forbidden}</div>
       </section>
     )}
 
-    {!!place.links?.length && (
+    {!!place?.links?.length && (
       <section className={styles.section}>
         <h3 className={styles.sectionTitle}>관련 링크</h3>
         <div className={styles.linkList}>
@@ -223,12 +155,14 @@ export const PlaceDetailContent = ({ place }: PlaceDetailContentProps) => (
 );
 
 type PlaceDetailModalProps = {
-  place: Place;
+  id: number;
 };
 
-const PlaceDetailModal = ({ place }: PlaceDetailModalProps) => {
+const PlaceDetailModal = ({ id }: PlaceDetailModalProps) => {
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(true);
+
+  const { data: place, isError } = usePlaceQuery(id);
 
   const handleOpenChange = (open: boolean) => {
     setIsOpen(open);
@@ -255,6 +189,10 @@ const PlaceDetailModal = ({ place }: PlaceDetailModalProps) => {
 
     router.replace("/");
   };
+
+  if (isError) {
+    notFound();
+  }
 
   return (
     <Dialog.Root open={isOpen} onOpenChange={handleOpenChange}>
