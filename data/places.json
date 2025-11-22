@@ -19,18 +19,26 @@
         "음료 반입 금지(텀블러는 가능)",
         "실내는 신발 벗고 이용"
       ],
-      "tags": ["도서관", "조용한"],
+      "tags": [
+        "도서관",
+        "조용한"
+      ],
       "category": "LIBRARY",
       "neighborhood": "지산동",
       "oneLineReview": "열린 창문으로 불어오는 바람을 쐬며\n책을 읽으면 기분이 조크든요!",
-      "images": ["/images/place_0_1.jpg", "/images/place_0_2.jpg"]
+      "images": [
+        "/images/place_0_1.jpg",
+        "/images/place_0_2.jpg"
+      ]
     },
     {
       "id": 1,
       "name": "푸른길공원",
       "address": "광주 동구 동명동 284-16",
       "hours": "연중무휴",
-      "nearbyStops": ["농장다리"],
+      "nearbyStops": [
+        "농장다리"
+      ],
       "info": [
         "벤치 있음",
         "푸른길분수공원에 푸른길정자 있음",
@@ -38,11 +46,17 @@
         "도보 2분 거리에 스타벅스 광주지산DT점이 있음",
         "동명동 커뮤니티센터와 푸른길분수공원 산수동문화마당에 공중화장실 있음"
       ],
-      "tags": ["공원", "야외"],
+      "tags": [
+        "공원",
+        "야외"
+      ],
       "category": "OUTDOOR",
       "neighborhood": "계림동",
       "oneLineReview": "여름엔 푸른 녹음이, 가을엔 단풍이 물드는\n자연 속에서 야외 독서 어때요?",
-      "images": ["/images/place_1_1.jpg", "/images/place_1_2.jpg"]
+      "images": [
+        "/images/place_1_1.jpg",
+        "/images/place_1_2.jpg"
+      ]
     },
     {
       "id": 2,
@@ -50,13 +64,24 @@
       "address": "광주 동구 지산로 73",
       "hours": "08:00~19:00",
       "closedDays": "매주 토·일 정기 휴무",
-      "nearbyStops": ["법원"],
-      "info": ["클래식이 흘러나와 책 읽기 좋은 분위기", "주차장 있음"],
-      "tags": ["카페", "조용한"],
+      "nearbyStops": [
+        "법원"
+      ],
+      "info": [
+        "클래식이 흘러나와 책 읽기 좋은 분위기",
+        "주차장 있음"
+      ],
+      "tags": [
+        "카페",
+        "조용한"
+      ],
       "category": "CAFE",
       "neighborhood": "지산동",
       "oneLineReview": "흘러나오는 클래식과 함께\n분위기 한 잔 마실 수 있는 카페",
-      "images": ["/images/place_2_1.jpg", "/images/place_2_2.jpg"]
+      "images": [
+        "/images/place_2_1.jpg",
+        "/images/place_2_2.jpg"
+      ]
     },
     {
       "id": 3,
@@ -64,7 +89,10 @@
       "address": "광주 동구 동계천로 168-5",
       "hours": "10:00~18:00 (휴게시간 12:00~13:00)",
       "closedDays": "휴무: 월요일 및 법정 공휴일",
-      "nearbyStops": ["문화전당역", "살레시오여고"],
+      "nearbyStops": [
+        "문화전당역",
+        "살레시오여고"
+      ],
       "info": [
         "외부 음식 반입 불가능",
         "본채와 인문관에서 독서 가능",
@@ -76,11 +104,17 @@
           "url": "https://www.donggu.kr/humancity/menu.es?mid=a10301010000"
         }
       ],
-      "tags": ["문화공간", "도서관"],
+      "tags": [
+        "문화공간",
+        "도서관"
+      ],
       "category": "LIBRARY",
       "neighborhood": "동명동",
       "oneLineReview": "서양식 구조와 일본식 건축,\n한국의 분위기가 어우러진 근현대 건물",
-      "images": ["/images/place_3_1.jpg", "/images/place_3_2.jpg"],
+      "images": [
+        "/images/place_3_1.jpg",
+        "/images/place_3_2.jpg"
+      ],
       "imageSource": "인문도시 동구 온라인기록관 - ‘동구 인문학당’"
     },
     {
@@ -89,16 +123,24 @@
       "address": "광주 동구 장동로 23-16",
       "hours": "09:00~21:00 (지상 1-2층)",
       "closedDays": "매월 둘째·넷째 주 월요일 및 법정 공휴일 / 7월 2일(개관기념일) 휴관",
-      "nearbyStops": ["문화전당역", "살레시오여고"],
+      "nearbyStops": [
+        "문화전당역",
+        "살레시오여고"
+      ],
       "info": [
         "광주광역시교육청이 운영하는 대표 도서관",
         "넓은 자료실과 열람실"
       ],
-      "tags": ["도서관"],
+      "tags": [
+        "도서관"
+      ],
       "category": "LIBRARY",
       "neighborhood": "동명동",
       "oneLineReview": "도서관의 정석! 군더더기 없이 깔끔한 도서관",
-      "images": ["/images/place_4_1.jpg", "/images/place_4_2.jpg"]
+      "images": [
+        "/images/place_4_1.jpg",
+        "/images/place_4_2.jpg"
+      ]
     },
     {
       "id": 5,
@@ -106,17 +148,25 @@
       "address": "광주 동구 의재로88번길 9-6 1, 2, 3층",
       "hours": "08:00~20:00",
       "closedDays": "매주 일요일 정기 휴무",
-      "nearbyStops": ["연진회미술원", "학동.증심사입구역 4번출구"],
+      "nearbyStops": [
+        "연진회미술원",
+        "학동.증심사입구역 4번출구"
+      ],
       "info": [
         "세 개 층으로 구성된 복합 문화 카페",
         "넓은 공간",
         "감각적인 분위기"
       ],
-      "tags": ["카페", "복합문화공간"],
+      "tags": [
+        "카페",
+        "복합문화공간"
+      ],
       "category": "CAFE",
       "neighborhood": "지원동",
       "oneLineReview": "",
-      "images": ["/images/place_5_1.jpg"],
+      "images": [
+        "/images/place_5_1.jpg"
+      ],
       "disabled": true
     },
     {
@@ -125,35 +175,54 @@
       "address": "광주 동구 경양로 355",
       "hours": "종합자료실 09:00~22:00 / 디지털자료실 09:00~18:00(주말 17:00까지) / 열람실 07:00~22:00",
       "closedDays": "매월 1·3주 월요일 및 법정 공휴일",
-      "nearbyStops": ["산수오거리", "산수동우체국", "산수시장"],
+      "nearbyStops": [
+        "산수오거리",
+        "산수동우체국",
+        "산수시장"
+      ],
       "info": [
         "레트로 분위기의 도서관",
         "도서관 내부 종합자료실과 열람실에서 독서 가능",
         "주차장 무료 이용 가능"
       ],
-      "tags": ["도서관", "레트로"],
+      "tags": [
+        "도서관",
+        "레트로"
+      ],
       "category": "LIBRARY",
       "neighborhood": "산수동",
       "oneLineReview": "1980년대 대학 도서관에 온 것 같은\n레트로한 분위기의 도서관!",
-      "images": ["/images/place_6_1.jpg", "/images/place_6_2.jpg"]
+      "images": [
+        "/images/place_6_1.jpg",
+        "/images/place_6_2.jpg"
+      ]
     },
     {
       "id": 7,
       "name": "스타벅스 광주지산유원지입구점",
       "address": "광주 동구 무등로 592 (산수동)",
       "hours": "매일 08:30~22:00",
-      "nearbyStops": ["신양파크호텔", "산수무등파크"],
+      "nearbyStops": [
+        "신양파크호텔",
+        "산수무등파크"
+      ],
       "info": [
         "사람이 몰리는 주말보다는 비교적 한산한 평일에 책 읽기 좋음",
         "무등산 근처라 창가 자리에 앉으면 푸른 풍경 보면서 책 읽기 좋음",
         "카페 이용 시 주차장 3시간 무료 이용 가능",
         "3시간 이후 30분당 3000원에 이용 가능"
       ],
-      "tags": ["카페", "프랜차이즈"],
+      "tags": [
+        "카페",
+        "프랜차이즈"
+      ],
       "category": "CAFE",
       "neighborhood": "산수동",
       "oneLineReview": "그냥 스타벅스가 아니에요!\n무등산의 푸른 풍경과 함께 독서 어때요?",
-      "images": ["/images/place_7_1.jpg", "/images/place_7_2.jpg"]
+      "images": [
+        "/images/place_7_1.jpg",
+        "/images/place_7_2.jpg"
+      ]
     },
     {
       "id": 8,
@@ -161,16 +230,27 @@
       "address": "광주 동구 무등로433번길 1 1층",
       "hours": "13:00~24:00 (23:30 라스트오더)",
       "closedDays": "매주 화·수요일 정기 휴무",
-      "nearbyStops": ["동진맨션", "산수동우체국", "산수오거리"],
+      "nearbyStops": [
+        "동진맨션",
+        "산수동우체국",
+        "산수오거리"
+      ],
       "info": [
         "잔잔한 음악",
         "애견 동반 가능(이동 가방 안에 있는 경우만 허용)"
       ],
-      "tags": ["카페", "북카페", "애견동반"],
+      "tags": [
+        "카페",
+        "북카페",
+        "애견동반"
+      ],
       "category": "CAFE",
       "neighborhood": "산수동",
       "oneLineReview": "잔잔한 음악과 나무 인테리어, 차분해지는 기분",
-      "images": ["/images/place_8_1.jpg", "/images/place_8_2.jpg"]
+      "images": [
+        "/images/place_8_1.jpg",
+        "/images/place_8_2.jpg"
+      ]
     },
     {
       "id": 9,
@@ -178,17 +258,26 @@
       "address": "광주 동구 경양로 350 1층",
       "hours": "월~목 11:00~20:00 / 금 11:00~22:00 / 주말·공휴일 12:00~19:00 (영업 종료 30분 전 라스트오더)",
       "closedDays": "일요일 정기 휴무",
-      "nearbyStops": ["농장다리", "산수오거리"],
+      "nearbyStops": [
+        "농장다리",
+        "산수오거리"
+      ],
       "info": [
         "잔잔하고 아늑한 분위기",
         "책 읽기 적당한 조명의 조도",
         "전용 주차 공간 따로 없음(주변 공영주차장 이용 추천)"
       ],
-      "tags": ["카페", "아지트"],
+      "tags": [
+        "카페",
+        "아지트"
+      ],
       "category": "CAFE",
       "neighborhood": "산수동",
       "oneLineReview": "잔잔하고 아늑한 분위기에 파묻혀\n느낌 좋은 독서 어때요?",
-      "images": ["/images/place_9_1.jpg", "/images/place_9_2.jpg"]
+      "images": [
+        "/images/place_9_1.jpg",
+        "/images/place_9_2.jpg"
+      ]
     },
     {
       "id": 10,
@@ -196,17 +285,27 @@
       "address": "광주 동구 동명로67번길 32-3 2층",
       "hours": "12:00~24:00 (23:30 라스트오더)",
       "closedDays": "화요일 정기 휴무",
-      "nearbyStops": ["동구노인종합복지관", "농장다리", "법원입구"],
+      "nearbyStops": [
+        "동구노인종합복지관",
+        "농장다리",
+        "법원입구"
+      ],
       "info": [
         "잔잔한 분위기",
         "읽을 수 있는 책 구비",
         "전용 주차장 없음(주변 공영주차장 이용 추천)"
       ],
-      "tags": ["카페", "북카페"],
+      "tags": [
+        "카페",
+        "북카페"
+      ],
       "category": "CAFE",
       "neighborhood": "산수동",
       "oneLineReview": "잔잔하면서도 힙한 분위기의 카페,\n느낌 좋은 밤의 무드!",
-      "images": ["/images/place_10_1.jpg", "/images/place_10_2.jpg"]
+      "images": [
+        "/images/place_10_1.jpg",
+        "/images/place_10_2.jpg"
+      ]
     },
     {
       "id": 11,
@@ -214,13 +313,25 @@
       "address": "광주 동구 화산로 358 1층",
       "hours": "09:30~22:30",
       "closedDays": "매달 3번째 월요일 정기 휴무",
-      "nearbyStops": ["지원2동행정복지센터입구", "소태역"],
-      "info": ["한적한 분위기", "유동 인구 적음"],
-      "tags": ["문화공간", "갤러리"],
+      "nearbyStops": [
+        "지원2동행정복지센터입구",
+        "소태역"
+      ],
+      "info": [
+        "한적한 분위기",
+        "유동 인구 적음"
+      ],
+      "tags": [
+        "문화공간",
+        "갤러리"
+      ],
       "category": "ETC",
       "neighborhood": "",
       "oneLineReview": "",
-      "images": ["/images/place_11_1.jpg", "/images/place_11_2.jpg"],
+      "images": [
+        "/images/place_11_1.jpg",
+        "/images/place_11_2.jpg"
+      ],
       "disabled": true
     },
     {
@@ -228,18 +339,27 @@
       "name": "양와당 소태점",
       "address": "광주 동구 남문로 563",
       "hours": "평일 10:00~22:00 (21:00 라스트오더) / 주말 11:00~22:00 (21:00 라스트오더)",
-      "nearbyStops": ["지원2동행정복지센터입구", "소태역"],
+      "nearbyStops": [
+        "지원2동행정복지센터입구",
+        "소태역"
+      ],
       "info": [
         "한적한 분위기",
         "유동 인구 적음",
         "넓은 매장",
         "수제 양갱 선물세트로 유명"
       ],
-      "tags": ["카페", "디저트"],
+      "tags": [
+        "카페",
+        "디저트"
+      ],
       "category": "CAFE",
       "neighborhood": "지원동",
       "oneLineReview": "고풍스러운 분위기의 카페,\n고풍스럽게 책 한 권 어때요?",
-      "images": ["/images/place_12_1.jpg", "/images/place_12_2.jpg"]
+      "images": [
+        "/images/place_12_1.jpg",
+        "/images/place_12_2.jpg"
+      ]
     },
     {
       "id": 13,
@@ -247,13 +367,25 @@
       "address": "광주 동구 남계길 49",
       "hours": "평일 09:00~21:00 / 주말 09:00~17:00",
       "closedDays": "매달 2·4번째 월요일 정기 휴무",
-      "nearbyStops": ["남계촌"],
-      "info": ["깨끗한 시설", "조용한 분위기", "내부 카페 있음"],
-      "tags": ["도서관", "커뮤니티"],
+      "nearbyStops": [
+        "남계촌"
+      ],
+      "info": [
+        "깨끗한 시설",
+        "조용한 분위기",
+        "내부 카페 있음"
+      ],
+      "tags": [
+        "도서관",
+        "커뮤니티"
+      ],
       "category": "LIBRARY",
       "neighborhood": "지원동",
       "oneLineReview": "동구만의 별마당 도서관, 책정원 도서관!\n책이 술술 읽혀요!!",
-      "images": ["/images/place_13_1.jpg", "/images/place_13_2.jpg"],
+      "images": [
+        "/images/place_13_1.jpg",
+        "/images/place_13_2.jpg"
+      ],
       "imageSource": "광주광역시 공식 블로그"
     },
     {
@@ -262,13 +394,23 @@
       "address": "광주 동구 계림동 521-6",
       "hours": "10:00~19:00",
       "closedDays": "매주 월요일 정기 휴무",
-      "nearbyStops": ["동진맨션"],
-      "info": ["차분하고 아늑한 분위기"],
-      "tags": ["카페", "잔잔한"],
+      "nearbyStops": [
+        "동진맨션"
+      ],
+      "info": [
+        "차분하고 아늑한 분위기"
+      ],
+      "tags": [
+        "카페",
+        "잔잔한"
+      ],
       "category": "CAFE",
       "neighborhood": "계림동",
       "oneLineReview": "아이보리와 우드톤의 인테리어로\n차분하고 아늑한 분위기의 카페",
-      "images": ["/images/place_14_1.jpg", "/images/place_14_2.jpg"]
+      "images": [
+        "/images/place_14_1.jpg",
+        "/images/place_14_2.jpg"
+      ]
     },
     {
       "id": 15,
@@ -276,13 +418,24 @@
       "address": "광주 동구 계림동 241-10",
       "hours": "11:30~20:00 (19:30 라스트오더)",
       "closedDays": "매주 일요일 정기 휴무",
-      "nearbyStops": ["광주고/4.19역사관"],
-      "info": ["헌책방 거리 주변에 위치", "예스럽고 아늑한 분위기"],
-      "tags": ["카페", "레트로"],
+      "nearbyStops": [
+        "광주고/4.19역사관"
+      ],
+      "info": [
+        "헌책방 거리 주변에 위치",
+        "예스럽고 아늑한 분위기"
+      ],
+      "tags": [
+        "카페",
+        "레트로"
+      ],
       "category": "CAFE",
       "neighborhood": "계림동",
       "oneLineReview": "헌책방 유림서점의 정취를 가득 담은,\n과거와 현대 사이의 공간",
-      "images": ["/images/place_15_1.jpg", "/images/place_15_2.jpg"]
+      "images": [
+        "/images/place_15_1.jpg",
+        "/images/place_15_2.jpg"
+      ]
     },
     {
       "id": 16,
@@ -290,18 +443,25 @@
       "address": "광주 동구 경양로247번길 26 4,5층",
       "hours": "평일 09:00~18:00 / 주말 09:00~17:00",
       "closedDays": "매월 1·3번째 월요일 및 공휴일 휴관",
-      "nearbyStops": ["광주고/4.19역사관"],
+      "nearbyStops": [
+        "광주고/4.19역사관"
+      ],
       "info": [
         "4층 유아/아동 자료실",
         "5층 일반자료실",
         "12:00~13:00 점심시간 휴무",
         "주차장 있음"
       ],
-      "tags": ["도서관", "가족"],
+      "tags": [
+        "도서관",
+        "가족"
+      ],
       "category": "LIBRARY",
       "neighborhood": "계림동",
       "oneLineReview": "작지만 알찬, 꿈이 자라는 도서관!",
-      "images": ["/images/place_16_1.jpg"],
+      "images": [
+        "/images/place_16_1.jpg"
+      ],
       "imageSource": "광주동구도서관 공식 홈페이지"
     },
     {
@@ -310,17 +470,25 @@
       "address": "광주 동구 의재로 140-6",
       "hours": "11:00~17:00 (입장 마감 16:30)",
       "closedDays": "매주 월요일 미술관 정기 휴무, 카페는 운영",
-      "nearbyStops": ["운림중"],
+      "nearbyStops": [
+        "운림중"
+      ],
       "info": [
         "미술관 관람 요금 3,000원(변동가능성이 있으므로 전화문의 요망)",
         "아늑하고 조용한 분위기의 카페",
         "야외테라스가 있어서 날 좋을 때 테라스 이용도 가능"
       ],
-      "tags": ["미술관", "카페"],
+      "tags": [
+        "미술관",
+        "카페"
+      ],
       "category": "CAFE",
       "neighborhood": "지산동",
       "oneLineReview": "미술관 관람 후에\n아늑한 분위기의 카페에서 책 한 점 어때요?",
-      "images": ["/images/place_17_1.jpg", "/images/place_17_2.jpg"]
+      "images": [
+        "/images/place_17_1.jpg",
+        "/images/place_17_2.jpg"
+      ]
     },
     {
       "id": 18,
@@ -328,16 +496,24 @@
       "address": "광주 동구 의재로 9",
       "hours": "평일 12:00~22:00 (21:10 라스트오더) / 주말 12:00~21:00",
       "closedDays": "매주 월·화요일 정기 휴무",
-      "nearbyStops": ["학동.증심사입구역"],
+      "nearbyStops": [
+        "학동.증심사입구역"
+      ],
       "info": [
         "차분한 분위기로 여유롭게 즐기기 좋음",
         "외부·내부 시설 룸 예약 가능"
       ],
-      "tags": ["티룸", "카페"],
+      "tags": [
+        "티룸",
+        "카페"
+      ],
       "category": "CAFE",
       "neighborhood": "학동",
       "oneLineReview": "고즈넉한 한옥 건물에서 즐기는\n차 한 잔과 함께 독서 테라피",
-      "images": ["/images/place_18_1.jpg", "/images/place_18_2.jpg"],
+      "images": [
+        "/images/place_18_1.jpg",
+        "/images/place_18_2.jpg"
+      ],
       "imageSource": "티 에디트 업체등록사진"
     },
     {
@@ -346,7 +522,9 @@
       "address": "광주 동구 충장로22번길 8-12 1층",
       "hours": "월·화·목 12:00~19:00 / 금 12:00~18:30 / 토·일 12:00~20:00",
       "closedDays": "매주 수요일 정기 휴무",
-      "nearbyStops": ["금남로5가역"],
+      "nearbyStops": [
+        "금남로5가역"
+      ],
       "info": [
         "문화 행사가 있는 날은 영업시간이 변동",
         "독립서점과 북카페 동시 운영",
@@ -354,11 +532,18 @@
         "애견동반가능",
         "가까운 거리에 공영주차장 있음"
       ],
-      "tags": ["독립서점", "북카페", "애견동반"],
+      "tags": [
+        "독립서점",
+        "북카페",
+        "애견동반"
+      ],
       "category": "CAFE",
       "neighborhood": "충장동",
       "oneLineReview": "책방과 카페가 함께! 책도 사고, 책도 읽고!",
-      "images": ["/images/place_19_1.jpg", "/images/place_19_2.jpg"],
+      "images": [
+        "/images/place_19_1.jpg",
+        "/images/place_19_2.jpg"
+      ],
       "imageSource": "“유밍구”님의 블로그"
     },
     {
@@ -367,18 +552,28 @@
       "address": "광주 동구 광산동 13",
       "hours": "화·목·금·일 10:00~18:00 / 수·토 10:00~20:00",
       "closedDays": "매주 월요일 정기 휴무",
-      "nearbyStops": ["문화전당역", "북구청", "문화전당역 2번출구"],
+      "nearbyStops": [
+        "문화전당역",
+        "북구청",
+        "문화전당역 2번출구"
+      ],
       "info": [
         "문화정보원 지하 3층에 위치",
         "책과 함께하는 휴식 공간",
         "북라운지 내의 도서는 외부 반출 및 대여 불가",
         "음료(생수 제외) 및 음식물 반입 금지"
       ],
-      "tags": ["문화공간", "라운지"],
+      "tags": [
+        "문화공간",
+        "라운지"
+      ],
       "category": "ETC",
       "neighborhood": "서남동",
       "oneLineReview": "책과 책을 좋아하는 사람들과 함께하는 문화공간",
-      "images": ["/images/place_20_1.jpg", "/images/place_20_2.jpg"],
+      "images": [
+        "/images/place_20_1.jpg",
+        "/images/place_20_2.jpg"
+      ],
       "imageSource": "국립아시아문화전당 공식 홈페이지"
     },
     {
@@ -386,13 +581,26 @@
       "name": "책과생활",
       "address": "광주 동구 제봉로 100-1 1층",
       "hours": "12:00~20:00 / 일요일 12:00~19:00",
-      "nearbyStops": ["동구청", "문화전당역 2번출구", "문화전당역 4번출구"],
-      "info": ["서점 내부에 책 읽는 공간 존재", "다소 협소", "도서 굿즈 판매"],
-      "tags": ["독립서점"],
+      "nearbyStops": [
+        "동구청",
+        "문화전당역 2번출구",
+        "문화전당역 4번출구"
+      ],
+      "info": [
+        "서점 내부에 책 읽는 공간 존재",
+        "다소 협소",
+        "도서 굿즈 판매"
+      ],
+      "tags": [
+        "독립서점"
+      ],
       "category": "ETC",
       "neighborhood": "동명동",
       "oneLineReview": "다양한 책과 도서 굿즈를 판매하는\n느낌 좋은 책방에서 독서 어때요?",
-      "images": ["/images/place_21_1.jpg", "/images/place_21_2.jpg"]
+      "images": [
+        "/images/place_21_1.jpg",
+        "/images/place_21_2.jpg"
+      ]
     },
     {
       "id": 22,
@@ -400,7 +608,11 @@
       "address": "광주 동구 제봉로138번길 8",
       "hours": "12:00~23:00",
       "closedDays": "매주 일요일 정기 휴무",
-      "nearbyStops": ["전남여고", "동구노인종합복지관", "문화전당역 4번출구"],
+      "nearbyStops": [
+        "전남여고",
+        "동구노인종합복지관",
+        "문화전당역 4번출구"
+      ],
       "info": [
         "잔잔한 분위기",
         "구비된 책 읽을 수 있음",
@@ -409,11 +621,17 @@
         "1인 고객 좌석 안내(1층의 1인 소파, 2층 전 좌석)",
         "국립아시아문화전당 주차장 1시간 무료"
       ],
-      "tags": ["북카페", "독립서점"],
+      "tags": [
+        "북카페",
+        "독립서점"
+      ],
       "category": "CAFE",
       "neighborhood": "동명동",
       "oneLineReview": "독서를 위한 공간이란 이런 곳일까? 북카페의 정석!",
-      "images": ["/images/place_22_1.jpg", "/images/place_22_2.jpg"]
+      "images": [
+        "/images/place_22_1.jpg",
+        "/images/place_22_2.jpg"
+      ]
     },
     {
       "id": 23,
@@ -421,7 +639,11 @@
       "address": "광주 동구 문화전당로 38",
       "hours": "07:00~24:00",
       "closedDays": "보통 3월 초~5월 말 잔디 생육 보호 휴식 기간으로 운영 X",
-      "nearbyStops": ["문화전당역", "북구청", "문화전당역 4번출구"],
+      "nearbyStops": [
+        "문화전당역",
+        "북구청",
+        "문화전당역 4번출구"
+      ],
       "info": [
         "문화창조원 안내데스크에서 폐현수막을 재활용한 돗자리 무료 대여 가능",
         "문화전당 주차장 or 근처 공영주차장 이용"
@@ -429,24 +651,973 @@
       "forbidden": [
         "흡연 / 음주 / 애완동물 출입 / 자전거 출입 / 오토바이 출입 / 스케이트보드 출입 / 노점상 및 취사행위 금지"
       ],
-      "tags": ["문화공간", "야외"],
+      "tags": [
+        "문화공간",
+        "야외"
+      ],
       "category": "OUTDOOR",
       "neighborhood": "서남동",
       "oneLineReview": "초록 잔디와 푸른 하늘 사이.\n날 좋은 오늘, 독서 피크닉 어때요?",
-      "images": ["/images/place_23_1.jpg", "/images/place_23_2.jpg"]
+      "images": [
+        "/images/place_23_1.jpg",
+        "/images/place_23_2.jpg"
+      ]
     },
     {
       "id": 24,
       "name": "국립아시아문화전당 복합전시관 광장 옆 열린마당",
       "address": "광주 동구 광산동 114",
       "hours": "상시 운영",
-      "nearbyStops": ["전남여고", "북구청", "문화전당역 4번출구"],
-      "info": ["그늘이 져 있어 봄·여름에 이용하기 좋음"],
-      "tags": ["문화공간", "야외"],
+      "nearbyStops": [
+        "전남여고",
+        "북구청",
+        "문화전당역 4번출구"
+      ],
+      "info": [
+        "그늘이 져 있어 봄·여름에 이용하기 좋음"
+      ],
+      "tags": [
+        "문화공간",
+        "야외"
+      ],
       "category": "OUTDOOR",
       "neighborhood": "서남동",
       "oneLineReview": "더운 여름에도 놓칠 수 없는 야외독서,\n넓은 그늘 아래에서 책 읽기 어때요?",
-      "images": ["/images/place_24_1.jpg", "/images/place_24_2.jpg"]
+      "images": [
+        "/images/place_24_1.jpg",
+        "/images/place_24_2.jpg"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "패러슈트",
+      "address": "광주 동구 장동로 4-1 1층(장동)",
+      "hours": "15:00~24:00 (23:30 라스트오더) / 금·토·공휴일전날 15:00~02:00( 01:30 라스트오더)",
+      "nearbyStops": [
+        "동구청",
+        "동구노인종합복지관",
+        "전남여고",
+        "문화전당역"
+      ],
+      "info": [
+        "‘바이닐 리스닝 바’ 특성상 큰소리로 대화 및 모임 어려움",
+        "아시아문화전당 1시간 무료 주차 가능",
+        "바(bar) 쪽이 더 밝아서 바 쪽에서 책 읽기를 추천"
+      ],
+      "tags": [
+        "바",
+        "바이닐"
+      ],
+      "category": "ETC",
+      "neighborhood": "충장동",
+      "oneLineReview": "느낌 좋은 ‘느좋’ 바,\n주독(酒讀)의 세계로 초대합니다!",
+      "images": [
+        "/images/place_25_1.jpg",
+        "/images/place_25_2.jpg"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "광우서적",
+      "address": "광주 동구 장동로 23-35",
+      "hours": "09:00~21:00",
+      "nearbyStops": [
+        "동구청",
+        "서남동행정복지센터",
+        "동구노인종합복지관",
+        "문화전당역"
+      ],
+      "info": [
+        "주변 공영주차장 이용 가능",
+        "읽을 곳이 4인 테이블 하나와 창가 테이블 하나로, 읽을 곳이 많진 않음",
+        "사람이 많을 시 집중하기 다소 어려울 수 있음"
+      ],
+      "tags": [
+        "서점",
+        "책방"
+      ],
+      "category": "ETC",
+      "neighborhood": "충장동",
+      "oneLineReview": "책방에서 책도 사고, 책도 읽고!",
+      "images": [
+        "/images/place_26_1.jpg",
+        "/images/place_26_2.jpg"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "동명책방 꽃이피다",
+      "address": "광주 동구 장동로43번길 16 1,2층",
+      "hours": "11:30~21:30",
+      "closedDays": "매주 일요일 정기 휴무",
+      "nearbyStops": [
+        "살레시오여고",
+        "동구청",
+        "서남동행정복지센터",
+        "문화전당역"
+      ],
+      "info": [
+        "서점이자 북카페로 2층에 있는 넓고 쾌적한 독서 공간 존재",
+        "독서 모임이나 관련 행사 진행 가능",
+        "매장 앞 무료 주차장 25대 이상 가능",
+        "매장 옆 유료주차장(동명주차장) 최초 30분 1,500원"
+      ],
+      "tags": [
+        "서점",
+        "북카페"
+      ],
+      "category": "CAFE",
+      "neighborhood": "동명동",
+      "oneLineReview": "소담하고 편안한 분위기의 동구 책방에서\n읽고 싶었던 책 사고 느긋하게 독서 어때요?",
+      "images": [
+        "/images/place_27_1.jpg",
+        "/images/place_27_2.jpg"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "제플린",
+      "address": "광주 동구 장동로 13 3층",
+      "hours": "18:30~01:00",
+      "closedDays": "매주 화요일 정기 휴무",
+      "nearbyStops": [
+        "동구청",
+        "동구노인종합복지관",
+        "문화전당역"
+      ],
+      "info": [
+        "크리스마스이브 오전 2시까지 영업",
+        "주변 공영주차장 이용 가능",
+        "듣고 싶은 노래 신청 가능(1인 1곡)",
+        "바 쪽 조명이 좀 더 밝아 책 읽기 좋아 보임"
+      ],
+      "tags": [
+        "바",
+        "리스닝바"
+      ],
+      "category": "ETC",
+      "neighborhood": "충장동",
+      "oneLineReview": "느낌 좋은 바에서 좋아하는 음악과 함께\n느낌 좋은 독서하는 느좋청년이 되어보자고!",
+      "images": [
+        "/images/place_28_1.jpg",
+        "/images/place_28_2.jpg"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "다반사 차문화원",
+      "address": "광주 동구 제봉로 108",
+      "hours": "10:00~21:00 (20:30 라스트오더)",
+      "closedDays": "매주 일요일 정기 휴무",
+      "nearbyStops": [
+        "동구청",
+        "서남동행정복지센터",
+        "문화전당역"
+      ],
+      "info": [
+        "다양하고 예쁜 다기 구경 가능",
+        "1층과 2층에 각각 테이블 2개",
+        "매장 바로 옆 무료 주차 가능"
+      ],
+      "tags": [
+        "차",
+        "다기"
+      ],
+      "category": "CAFE",
+      "neighborhood": "서남동",
+      "oneLineReview": "향긋한 차 냄새가 공간을 가득 채우는\n차분한 분위기 속에서 차 한잔, 책 한 권",
+      "images": [
+        "/images/place_29_1.jpg",
+        "/images/place_29_2.jpg"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "광주영상복합문화관",
+      "address": "광주 동구 제봉로 96",
+      "hours": "기본적으로는 오후 6시까지, 개방형 화장실이 있어 저녁 늦게까지 이용 가능",
+      "nearbyStops": [
+        "동구청",
+        "서남동행정복지센터",
+        "문화전당역"
+      ],
+      "info": [
+        "전용 주차장 없음",
+        "주변 공영주차장 이용",
+        "1층에 구비된 서적과 책 읽을 공간 존재"
+      ],
+      "tags": [
+        "문화공간",
+        "전시관"
+      ],
+      "category": "ETC",
+      "neighborhood": "서남동",
+      "oneLineReview": "정신없이 걷다가 쉬고 싶을 때 들어와\n쉬어가기 딱 좋은 곳!",
+      "images": [
+        "/images/place_30_1.jpg",
+        "/images/place_30_2.jpg"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "사운드오브뮤직",
+      "address": "광주 동구 서석로85번길 22",
+      "hours": "19:00~02:00",
+      "closedDays": "매주 일요일 정기 휴무",
+      "nearbyStops": [
+        "전남여고",
+        "예술의거리입구",
+        "국립아시아문화전당(구.도청)",
+        "문화전당역"
+      ],
+      "info": [
+        "테이블에 조명이 있어 책 읽기 괜찮음",
+        "음악 감상 공간으로 큰소리 대화 금지",
+        "시끄럽게 하는 분 출입 금지",
+        "주변 공영주차장 이용 추천"
+      ],
+      "tags": [
+        "바",
+        "음악감상"
+      ],
+      "category": "ETC",
+      "neighborhood": "충장동",
+      "oneLineReview": "서부영화 속 산장에 들어온 듯한 기분이 드는\n나무 향 가득한 공간(강력 추천!)",
+      "images": [
+        "/images/place_31_1.jpg",
+        "/images/place_31_2.jpg"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "포플레이",
+      "address": "광주 동구 문화전당로35번길 11",
+      "hours": "사장님 재량으로 운영됨",
+      "nearbyStops": [
+        "전남대병원오거리/남동성당",
+        "국립아시아문화전당(구.도청)",
+        "문화전당역"
+      ],
+      "info": [
+        "책 읽기 괜찮은 조명",
+        "메뉴판 없는 바(bar)로 손님의 술 취향에 따라 사장님 느낌대로 만들어주는 즉흥적인 매력이 있는 곳",
+        "주변 공영주차장 이용"
+      ],
+      "tags": [
+        "바",
+        "레트로"
+      ],
+      "category": "ETC",
+      "neighborhood": "서남동",
+      "oneLineReview": "단골들만 아는 찐찐찐 레트로\n서남동 바(bar)에서 레트로 독서 어때요?",
+      "images": [
+        "/images/place_32_1.jpg",
+        "/images/place_32_2.jpg"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "라디오스타",
+      "address": "광주 동구 문화전당로35번길 1, 2층",
+      "hours": "사장님 재량으로 운영됨",
+      "nearbyStops": [
+        "전남대병원오거리/남동성당",
+        "국립아시아문화전당(구.도청)",
+        "문화전당역"
+      ],
+      "info": [
+        "책 읽기 괜찮은 조명(특히 창가 쪽)",
+        "느낌 좋은 레트로한 음악이 사운드 빵빵하게 흘러나옴",
+        "주변 공영주차장 이용 추천"
+      ],
+      "tags": [
+        "바",
+        "음악감상"
+      ],
+      "category": "ETC",
+      "neighborhood": "서남동",
+      "oneLineReview": "호프집과 바가 합쳐진 캐주얼한 분위기의 LP바!",
+      "images": [
+        "/images/place_33_1.jpg",
+        "/images/place_33_2.jpg"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "바이더글라스",
+      "address": "광주 동구 장동로 6-1 2층",
+      "hours": "19:30~02:00 / 금·토 19:30~03:00",
+      "nearbyStops": [
+        "동구청",
+        "동구노인종합복지관",
+        "문화전당역"
+      ],
+      "info": [
+        "전용 주차장 없음",
+        "주변 공영주차장 이용"
+      ],
+      "tags": [
+        "바",
+        "감성"
+      ],
+      "category": "ETC",
+      "neighborhood": "충장동",
+      "oneLineReview": "방탄소년단 RM도 방문한\n감성적인 음악이 흘러나오는 ‘느좋’ 바!",
+      "images": [
+        "/images/place_34_1.jpg",
+        "/images/place_34_2.jpg"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "먼데이홀리데이",
+      "address": "광주 동구 장동로 51 1층",
+      "hours": "11:30~22:00 (21:00 라스트오더)",
+      "closedDays": "매주 월요일 정기 휴무",
+      "nearbyStops": [
+        "살레시오여고",
+        "문화전당역"
+      ],
+      "info": [
+        "1층과 2층 존재",
+        "크리스마스 홀리데이 시즌 같은 분위기의 2층"
+      ],
+      "tags": [
+        "카페",
+        "크리스마스"
+      ],
+      "category": "CAFE",
+      "neighborhood": "동명동",
+      "oneLineReview": "이름처럼 진정한 ‘홀리데이’를 선사할 공간에서\n‘쉼’같은 독서 어때요?",
+      "images": [
+        "/images/place_35_1.jpg",
+        "/images/place_35_2.jpg"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "바이닐 광주점",
+      "address": "광주 동구 동계천로 162 2, 3층",
+      "hours": "월·화·수·목 11:00~23:00 (22:00 라스트오더) / 금 11:00~24:00 / 토·일 10:00~24:00 (23:00 라스트오더)",
+      "nearbyStops": [
+        "살레시오여고",
+        "농장다리"
+      ],
+      "info": [
+        "1인 입장권 18,900원",
+        "각 자리에 개별 턴테이블과 헤드셋 구비",
+        "듣고 싶은 음악을 선택해 즐길 수 있는 문화생활 공간",
+        "책 읽기 딱 좋은 조도"
+      ],
+      "tags": [
+        "바이닐",
+        "카페"
+      ],
+      "category": "CAFE",
+      "neighborhood": "동명동",
+      "oneLineReview": "입장료가 아깝지 않은 느좋 바이브의\nLP 청음 카페에서 음악과 함께 독서 어때요?",
+      "images": [
+        "/images/place_36_1.jpg",
+        "/images/place_36_2.jpg"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "보리와이삭",
+      "address": "광주 동구 동계로12번길 5",
+      "hours": "11:00~22:00",
+      "closedDays": "매주 일요일 정기 휴무(일요일 방문 시 전화 요망)",
+      "nearbyStops": [
+        "농장다리",
+        "대인시장"
+      ],
+      "info": [
+        "안락하고 편안한 분위기의 찻집",
+        "책장과 테이블이 있는 안쪽의 분리된 공간은 예약 후 독서 모임 장소로 사용 가능"
+      ],
+      "tags": [
+        "찻집",
+        "독서모임"
+      ],
+      "category": "CAFE",
+      "neighborhood": "동명동",
+      "oneLineReview": "문을 열자마자 향긋한 차 향기가 마중 나오는\n동화 같은 분위기의 찻집!",
+      "images": [
+        "/images/place_37_1.jpg",
+        "/images/place_37_2.jpg"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "사월의파랑",
+      "address": "광주 동구 필문대로253번길 6 사월의파랑",
+      "hours": "12:00~02:00",
+      "nearbyStops": [
+        "살레시오여고"
+      ],
+      "info": [
+        "1층과 2층 공간",
+        "2층은 내부가 아닌 외부계단으로 올라갈 수 있음",
+        "독서 및 공부에 적합한 분위기"
+      ],
+      "tags": [
+        "카페",
+        "차분한"
+      ],
+      "category": "CAFE",
+      "neighborhood": "동명동",
+      "oneLineReview": "진한 우드톤의 차분한 분위기와\n독서는 클래식한 찰떡 조합!",
+      "images": [
+        "/images/place_38_1.jpg",
+        "/images/place_38_2.jpg"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "동명교회 앞 공개부지",
+      "address": "광주광역시 동구 동명로 20번길 31",
+      "hours": "상시 운영",
+      "nearbyStops": [
+        "농장다리"
+      ],
+      "info": [
+        "동명교회 옆 벤치가 모여있는 곳",
+        "차도가 근처라 시끄러울 수 있음"
+      ],
+      "tags": [
+        "야외",
+        "벤치"
+      ],
+      "category": "OUTDOOR",
+      "neighborhood": "동명동",
+      "oneLineReview": "이어폰 끼고 느긋한 야외 독서 어때요?",
+      "images": [
+        "/images/place_39_1.jpg",
+        "/images/place_39_2.jpg"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "정글북",
+      "address": "광주 동구 백서로 125번길 8-1 1층 정글북카페",
+      "hours": "10:00~19:30 (18:30 라스트오더)",
+      "closedDays": "매주 토·일 정기 휴무",
+      "nearbyStops": [
+        "양림교",
+        "전남대병원·남광주시장",
+        "남광주역"
+      ],
+      "info": [
+        "책장에 책이 가득함",
+        "독서 모임하기 좋은 긴 테이블 있음"
+      ],
+      "tags": [
+        "북카페",
+        "독서모임"
+      ],
+      "category": "CAFE",
+      "neighborhood": "학동",
+      "oneLineReview": "아늑한 분위기와 푸릇푸릇한 식물이 반겨주는\n정글 북카페",
+      "images": [
+        "/images/place_40_1.jpg",
+        "/images/place_40_2.jpg"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "라우더댄밤즈",
+      "address": "광주 동구 백서로 153번길 2 2층",
+      "hours": "11:00~23:00 (22:30 라스트오더) / 토·일 12:00~23:00 (22:30 라스트오더)",
+      "nearbyStops": [
+        "전남대병원오거리",
+        "남동성당",
+        "문화전당역"
+      ],
+      "info": [
+        "노래 크기가 조금 큰 면은 있었으나 독서에 방해가 될 정도는 아님",
+        "독서를 지향하는 사장님의 애정 가득한 독서스폿",
+        "내부에 비치된 책 읽기 가능"
+      ],
+      "tags": [
+        "카페",
+        "책"
+      ],
+      "category": "CAFE",
+      "neighborhood": "학동",
+      "oneLineReview": "책과 예술이 있는 미술관 같은 카페!",
+      "images": [
+        "/images/place_41_1.jpg",
+        "/images/place_41_2.jpg"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "반가사유",
+      "address": "광주 동구 백서로 153번길 6",
+      "hours": "10:00~18:00 / 토 13:00~18:00",
+      "closedDays": "매주 일요일 정기 휴무",
+      "nearbyStops": [
+        "전남대병원오거리",
+        "남동성당",
+        "문화전당역"
+      ],
+      "info": [
+        "간판 없는 카페",
+        "음료를 주문하는 매장 자체는 크기가 작으나 바로 옆에 연결된 주택을 개조한 장소에서 책을 읽으며 음료 마시기 가능",
+        "내부에 비치된 책 읽기 가능"
+      ],
+      "tags": [
+        "카페",
+        "책"
+      ],
+      "category": "CAFE",
+      "neighborhood": "학동",
+      "oneLineReview": "레트로 감성과 한옥의 분위기가 어우러진\n사색의 공간에서 차분하게 독서 어때요?",
+      "images": [
+        "/images/place_42_1.jpg",
+        "/images/place_42_2.jpg"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "학동역사공원 정자",
+      "address": "광주 동구 천변우로 599",
+      "hours": "상시 운영",
+      "nearbyStops": [
+        "방림교",
+        "학2마을아파트",
+        "학동·증심사입구역"
+      ],
+      "info": [
+        "바로 옆에 위치한 백범기념관 내부 시설을 이용 가능",
+        "공원에 위치한 정자도 지속적으로 관리되어 아주 깨끗함",
+        "‘광주백범기념관’ 영업시간 : 09:30~18:00 (매주 월요일 정기 휴무)"
+      ],
+      "tags": [
+        "야외",
+        "정자"
+      ],
+      "category": "OUTDOOR",
+      "neighborhood": "학동",
+      "oneLineReview": "역사의 숨결을 담은\n아늑한 정자가 있는 야외 독서 스폿!",
+      "images": [
+        "/images/place_43_1.jpg",
+        "/images/place_43_2.jpg"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "블루서클",
+      "address": "광주 동구 양림로 119번길 24 블루서클",
+      "hours": "18:00~02:00 (01:30 라스트오더)",
+      "closedDays": "매주 월요일 정기 휴무",
+      "nearbyStops": [
+        "양림교",
+        "전남대병원·남광주시장",
+        "남광주역"
+      ],
+      "info": [
+        "카페와 바를 동시에 운영하는 곳",
+        "잔잔한 클래식과 앰비언트 음악이 흘러나옴"
+      ],
+      "tags": [
+        "카페",
+        "바"
+      ],
+      "category": "CAFE&BAR",
+      "neighborhood": "학동",
+      "oneLineReview": "은은한 조명과 고급스러운 분위기가 매력적인\n카페&바에서 고독하게 독서 한 잔 어때요?",
+      "images": [
+        "/images/place_44_1.jpg",
+        "/images/place_44_2.jpg"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "물흐르듯",
+      "address": "광주 동구 동명로 62 1층",
+      "hours": "12:00~24:00",
+      "closedDays": "갑작스러운 휴뮤나 오픈 마감(시간 변경은 인스타그램 확인 필수)",
+      "nearbyStops": [
+        "농장다리"
+      ],
+      "info": [
+        "개방감이 있어 야외 독서하는 기분이 듦",
+        "저녁 시간대는 특히 붐비기 때문에 낮에 가는 것을 추천"
+      ],
+      "tags": [
+        "카페",
+        "야외"
+      ],
+      "category": "CAFE",
+      "neighborhood": "동명동",
+      "oneLineReview": "야외 캠핑 의자에 앉아 사람 구경도 하고,\n책도 읽고, 감성도 챙기고!",
+      "images": [
+        "/images/place_45_1.jpg",
+        "/images/place_45_2.jpg",
+        "/images/place_45_3.jpg"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "스트럭트",
+      "address": "광주 동구 동명로14번길 14 1,2층",
+      "hours": "11:30~19:00 / 토·일 12:00~22:00 (운영시간 유동적)",
+      "nearbyStops": [
+        "동구노인종합복지관"
+      ],
+      "info": [
+        "저녁 시간대에는 다소 붐빔",
+        "굉장히 넓고 쾌적한 공간",
+        "테이블과 의자가 곳곳에 배치되어 자리가 많음",
+        "1층 안쪽에서 서점 운영"
+      ],
+      "tags": [
+        "서점",
+        "북카페"
+      ],
+      "category": "CAFE",
+      "neighborhood": "동명동",
+      "oneLineReview": "공부하기도 책 읽기도 딱 좋은 잔잔한 분위기의 북카페",
+      "images": [
+        "/images/place_46_1.jpg",
+        "/images/place_46_2.jpg",
+        "/images/place_46_3.jpg"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "공과사",
+      "address": "광주 동구 동명로 5-1 2층",
+      "hours": "12:00~22:00 / 금 12:30~24:00 / 토 12:00~24:00",
+      "nearbyStops": [
+        "동구노인종합복지관",
+        "전남여고",
+        "동구청",
+        "문화전당역"
+      ],
+      "info": [
+        "건물 2층에 위치",
+        "창가 자리에 메모지와 볼펜이 배치되어 책 읽으면서 메모하기 용이함",
+        "배치된 책 읽기 가능"
+      ],
+      "tags": [
+        "카페",
+        "책"
+      ],
+      "category": "CAFE",
+      "neighborhood": "동명동",
+      "oneLineReview": "사계절이 보이는 창가로 햇살이 스며드는 따스한 공간",
+      "images": [
+        "/images/place_47_1.jpg",
+        "/images/place_47_2.jpg"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "커피한잔",
+      "address": "광주 동구 지호로 32-4 커피한잔",
+      "hours": "월·화·수·목 10:00~22:00 / 금·일 09:00~21:00 / 토 09:00~19:00",
+      "nearbyStops": [
+        "매일시장입구"
+      ],
+      "info": [
+        "따뜻한 조명과 우드톤 인테리어로 편안한 분위기"
+      ],
+      "tags": [
+        "카페",
+        "감성"
+      ],
+      "category": "CAFE",
+      "neighborhood": "지산동",
+      "oneLineReview": "따스한 자연광이 흘러들어오는 내츄럴한 감성카페",
+      "images": [
+        "/images/place_48_1.jpg",
+        "/images/place_48_2.jpg"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "구르미다",
+      "address": "광주 동구 지산로 58",
+      "hours": "08:00~20:00",
+      "nearbyStops": [
+        "매일시장입구"
+      ],
+      "info": [
+        "주인이 없는 셀프카페",
+        "카페 이용료 : 1인당 한가지 메뉴에 3,000원(차 or 커피)",
+        "머문 자리는 깨끗하게 정돈, 잔은 깨끗이 세척",
+        "외부음식 반입·고성방가·애완동물 금지",
+        "화장실은 연화사 주차장에 있음"
+      ],
+      "tags": [
+        "찻집",
+        "셀프카페"
+      ],
+      "category": "CAFE",
+      "neighborhood": "지산동",
+      "oneLineReview": "향긋한 차향과 편안한 분위기로\n심신이 릴렉스되는 공간",
+      "images": [
+        "/images/place_49_1.jpg",
+        "/images/place_49_2.jpg"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "시간과타자(법무사리채훈사무소)",
+      "address": "광주 동구 동명로 114-2 1층",
+      "hours": "08:00~17:00 / 토 10:00~18:00",
+      "closedDays": "매주 일요일 정기 휴무",
+      "nearbyStops": [
+        "법원"
+      ],
+      "info": [
+        "평범한 법무사 사무소처럼 보이는 외관으로 모르고 지나칠 수 있음",
+        "법원 근처라 점심시간엔 직장인들로 가득함",
+        "공간이 다소 좁음"
+      ],
+      "tags": [
+        "서점",
+        "북카페"
+      ],
+      "category": "CAFE",
+      "neighborhood": "지산동",
+      "oneLineReview": "평범해 보이는 사무소에 들어가는 순간,\n감각적인 카페가 펼쳐지는 반전의 공간!",
+      "images": [
+        "/images/place_50_1.jpg",
+        "/images/place_50_2.jpg"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "네츄럴커피스톨",
+      "address": "광주 동구 지호로 70번길 2 1층 natural coffee stall",
+      "hours": "08:00~18:00 (17:30 라스트오더)",
+      "closedDays": "매주 토·일 정기 휴무",
+      "nearbyStops": [
+        "지산2동행정복지센터"
+      ],
+      "info": [
+        "영업시간이 유동적일 수 있음",
+        "주택을 개조한 공간",
+        "공간이 벽으로 나누어져 프라이빗한 분위기"
+      ],
+      "tags": [
+        "카페",
+        "아늑한"
+      ],
+      "category": "CAFE",
+      "neighborhood": "지산동",
+      "oneLineReview": "집에 온 듯 아늑하고 편안한 분위기의\n카페에서 편안한 독서하세요!",
+      "images": [
+        "/images/place_51_1.jpg",
+        "/images/place_51_2.jpg"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "바우어커피 본점",
+      "address": "광주 동구 지호로 125",
+      "hours": "10:00~19:30 / 토 10:00~21:00 / 일 10:00~20:00",
+      "nearbyStops": [
+        "지산유원지입구"
+      ],
+      "info": [
+        "공간이 매우 크고 다양하며 야외테라스 존재",
+        "화장실이 층마다 위치해 편리함"
+      ],
+      "tags": [
+        "카페",
+        "무등산"
+      ],
+      "category": "CAFE",
+      "neighborhood": "지산동",
+      "oneLineReview": "통창으로 보이는 자연 경관과 햇살이\n기분 좋은 오늘을 선물합니다!",
+      "images": [
+        "/images/place_52_1.jpg",
+        "/images/place_52_2.jpg",
+        "/images/place_52_3.jpg"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "커볶",
+      "address": "광주 동구 지호로 161-7",
+      "hours": "11:00~22:00",
+      "nearbyStops": [
+        "지산유원지"
+      ],
+      "info": [
+        "1층 로스팅 공장에서 풍기는 그윽한 원두 냄새",
+        "2층에 프라이빗하고 편안한 좌석 존재",
+        "카페 내부가 매우 넓음",
+        "외부음식 반입 금지"
+      ],
+      "tags": [
+        "카페",
+        "무등산"
+      ],
+      "category": "CAFE",
+      "neighborhood": "지산동",
+      "oneLineReview": "고소한 원두 향이 가득한\n무등산 뷰 카페에서 북 테라피 어때요?",
+      "images": [
+        "/images/place_53_1.jpg"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "락오브피스",
+      "address": "광주 동구 필문대로 205번길 47",
+      "hours": "12:00~20:00 (19:30 라스트오더) / 토 14:00~20:00 (19:30 라스트오더)",
+      "closedDays": "매주 일요일 정기 휴무",
+      "nearbyStops": [
+        "동산아파트"
+      ],
+      "info": [
+        "내부 공간이 다소 협소함",
+        "감성적이고 아늑한 분위기"
+      ],
+      "tags": [
+        "카페",
+        "아늑함"
+      ],
+      "category": "CAFE",
+      "neighborhood": "지산동",
+      "oneLineReview": "소담하고 아늑한 분위기의 카페에서\n북오브피스 어때요?",
+      "images": [
+        "/images/place_54_1.jpg",
+        "/images/place_54_2.jpg"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "쿠자쿠",
+      "address": "광주 동구 무등로 306번길 8 1층",
+      "hours": "10:00~21:00 / 토·일 11:00~21:00",
+      "nearbyStops": [
+        "4.19기념관",
+        "중흥1동행정복지센터"
+      ],
+      "info": [
+        "바로 옆에 맛집으로 유명한 ‘계림동잔치집’이 있음"
+      ],
+      "tags": [
+        "카페",
+        "고풍스러움"
+      ],
+      "category": "CAFE",
+      "neighborhood": "계림동",
+      "oneLineReview": "고전 영화 속에 들어온 것만 같은 고풍스러운 카페",
+      "images": [
+        "/images/place_55_1.jpg",
+        "/images/place_55_2.jpg"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "아이엠낫얼론",
+      "address": "광주 동구 무등로 307번길 14-7",
+      "hours": "12:00~24:00",
+      "closedDays": "매주 월요일 정기 휴무",
+      "nearbyStops": [
+        "4.19기념관",
+        "구시청사거리"
+      ],
+      "info": [
+        "러너 할인 이벤트(달리기 복장+땀 흘리고 들어오시면 주류 제외 모든 음료 1,000월 할인!!)",
+        "강아지 동반 입장 가능",
+        "외부 음식 반입 가능"
+      ],
+      "tags": [
+        "카페",
+        "바"
+      ],
+      "category": "CAFE",
+      "neighborhood": "계림동",
+      "oneLineReview": "술? 커피? 무엇을 골라도 책과의 궁합은 100점!",
+      "images": [
+        "/images/place_56_1.jpg",
+        "/images/place_56_2.jpg"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "한옥카페 푸르하다, 계림동푸른길점",
+      "address": "광주 동구 무등로 321번길 17 1층",
+      "hours": "11:00~18:00",
+      "closedDays": "매주 토요일 정기 휴무(동절기 토·일 휴무)",
+      "nearbyStops": [
+        "서방사거리육교",
+        "4.19기념관"
+      ],
+      "info": [
+        "소담하고 고즈넉한 분위기의 한옥 카페"
+      ],
+      "tags": [
+        "카페",
+        "한옥"
+      ],
+      "category": "CAFE",
+      "neighborhood": "계림동",
+      "oneLineReview": "일상의 여유로움이 흐르는\n한옥 카페에 앉아 읽는 책 한 권의 기쁨",
+      "images": [
+        "/images/place_57_1.jpg",
+        "/images/place_57_2.jpg"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "라이크카페",
+      "address": "광주 동구 무등로 307번길 20-49",
+      "hours": "13:00~20:00",
+      "closedDays": "매주 일요일 정기 휴무",
+      "nearbyStops": [
+        "서방사거리육교",
+        "4.19기념관"
+      ],
+      "info": [
+        "영업시간이 유동적일 수 있음",
+        "2층 건물로 이루어져 있으나 1층보다는 2층이 더 책 읽기 적합한 분위기로 2층 사용 추천"
+      ],
+      "tags": [
+        "카페",
+        "햇살"
+      ],
+      "category": "CAFE",
+      "neighborhood": "계림동",
+      "oneLineReview": "따스한 햇살이 들어오는 곳에 앉아 읽는 책이 제맛!",
+      "images": [
+        "/images/place_58_1.jpg",
+        "/images/place_58_2.jpg",
+        "/images/place_58_3.jpg"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "계림동 푸른길공원",
+      "address": "광주 동구 계림동 730 푸른길공원",
+      "hours": "상시 운영",
+      "nearbyStops": [
+        "구시청사거리",
+        "4.19기념관"
+      ],
+      "info": [
+        "남원추어탕 근처에 위치",
+        "길게 뻗은 계단형 벤치에 앉아 야외 독서 가능",
+        "계절의 흐름을 느낄 수 있는 곳"
+      ],
+      "tags": [
+        "야외",
+        "공원"
+      ],
+      "category": "OUTDOOR",
+      "neighborhood": "계림동",
+      "oneLineReview": "자연 속에서 여유를 즐기며 독서하고 싶을 때",
+      "images": [
+        "/images/place_59_1.jpg",
+        "/images/place_59_2.jpg"
+      ]
     }
   ]
 }
