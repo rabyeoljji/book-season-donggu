@@ -116,7 +116,9 @@
       "oneLineReview": "서양식 구조와 일본식 건축,\n한국의 분위기가 어우러진 근현대 건물",
       "images": [
         "/images/place_3_1.jpg",
-        "/images/place_3_2.jpg"
+        "/images/place_3_2.jpg",
+        "/images/place_3_3.jpg",
+        "/images/place_3_4.jpg"
       ],
       "imageSource": "인문도시 동구 온라인기록관 - ‘동구 인문학당’"
     },
@@ -443,7 +445,7 @@
     {
       "id": 16,
       "name": "계림꿈나무도서관",
-      "address": "광주 동구 경양로247번길 26 4,5층",
+      "address": "광주 동구 경양로247번길 26 (4층, 5층)",
       "hours": "평일 09:00~18:00 / 주말 09:00~17:00",
       "closedDays": "매월 1·3번째 월요일 및 공휴일 휴관",
       "nearbyStops": [
@@ -463,9 +465,9 @@
       "neighborhood": "계림동",
       "oneLineReview": "작지만 알찬, 꿈이 자라는 도서관!",
       "images": [
-        "/images/place_16_1.jpg"
-      ],
-      "imageSource": "광주동구도서관 공식 홈페이지"
+        "/images/place_16_1.jpg",
+        "/images/place_16_2.jpg"
+      ]
     },
     {
       "id": 17,
