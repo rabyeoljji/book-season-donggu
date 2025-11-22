@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "@/styles/global.scss";
+import "keen-slider/keen-slider.min.css";
 import Providers from "@/app/providers";
 
 export const metadata: Metadata = {
