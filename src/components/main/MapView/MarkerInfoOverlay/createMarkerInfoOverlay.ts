@@ -4,10 +4,12 @@ import styles from "./MarkerInfoOverlay.module.scss";
 
 type MarkerOverlayOptions = {
   place: Place;
+  onDetailClick?: (placeId: number) => void;
 };
 
 export const createMarkerInfoOverlayElement = ({
   place,
+  onDetailClick,
 }: MarkerOverlayOptions): HTMLElement => {
   const container = document.createElement("div");
   container.className = styles.overlay;
@@ -42,17 +44,18 @@ export const createMarkerInfoOverlayElement = ({
   buttonRow.style.pointerEvents = "auto";
   container.append(buttonRow);
 
-  const detailLink = document.createElement("a");
-  detailLink.href = `/places/${place.id}`;
-  detailLink.className = styles.moreButton;
-  detailLink.textContent = "자세히 보기";
-  detailLink.style.pointerEvents = "auto";
-  detailLink.tabIndex = 0;
-  detailLink.addEventListener("click", (event) => {
+  const detailButton = document.createElement("button");
+  detailButton.type = "button";
+  detailButton.className = styles.moreButton;
+  detailButton.textContent = "자세히 보기";
+  detailButton.style.pointerEvents = "auto";
+  detailButton.tabIndex = 0;
+  detailButton.addEventListener("click", (event) => {
     event.stopPropagation();
+    onDetailClick?.(place.id);
   });
 
-  buttonRow.append(detailLink);
+  buttonRow.append(detailButton);
 
   return container;
 };

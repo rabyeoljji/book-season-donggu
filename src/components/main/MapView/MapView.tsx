@@ -1,11 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { useRouter } from "next/navigation";
-import { useQueryClient } from "@tanstack/react-query";
 
-import { getPlaceById } from "@/api/places.api";
-import { placesQueryKeys } from "@/api/places.query";
 import { loadKakaoMaps } from "@/common/utils/loadKakaoMaps";
 import type {
   KakaoCustomOverlay,
@@ -22,6 +18,7 @@ import styles from "./MapView.module.scss";
 
 type MapViewProps = {
   places: Place[];
+  onSelectPlace?: (placeId: number) => void;
 };
 
 const DEFAULT_CENTER = {
@@ -41,16 +38,15 @@ const createLatLng = (
   lng: number
 ): KakaoLatLng => new maps.LatLng(lat, lng);
 
-export default function MapView({ places }: MapViewProps) {
+export default function MapView({ places, onSelectPlace }: MapViewProps) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const [loadError, setLoadError] = useState<string | null>(null);
   const visiblePlaces = useMemo(
     () => places.filter((place) => !place.disabled),
     [places]
   );
-  const router = useRouter();
-  const queryClient = useQueryClient();
   const overlayRef = useRef<KakaoCustomOverlay | null>(null);
+  const selectPlaceRef = useRef(onSelectPlace);
   const initialViewRef = useRef<{
     lat: number;
     lng: number;
@@ -107,6 +103,10 @@ export default function MapView({ places }: MapViewProps) {
       map.panTo(nextCenter);
     });
   };
+
+  useEffect(() => {
+    selectPlaceRef.current = onSelectPlace;
+  }, [onSelectPlace]);
 
   useEffect(() => {
     const hasPlaces = visiblePlaces.length > 0;
@@ -194,18 +194,16 @@ export default function MapView({ places }: MapViewProps) {
                   maps.event.addListener(marker, "click", () => {
                     if (!mapInstance) return;
 
-                    void queryClient.prefetchQuery({
-                      queryKey: placesQueryKeys.DETAIL(place.id),
-                      queryFn: () => getPlaceById(place.id),
-                      staleTime: 5 * 60 * 1000,
-                    });
-                    void router.prefetch(`/places/${place.id}`);
-
                     if (overlayRef.current) {
                       overlayRef.current.setMap(null);
                     }
 
-                    const content = createMarkerInfoOverlayElement({ place });
+                    const content = createMarkerInfoOverlayElement({
+                      place,
+                      onDetailClick: (placeId) => {
+                        selectPlaceRef.current?.(placeId);
+                      },
+                    });
                     maps.event.preventMap(content);
                     const overlay = new maps.CustomOverlay({
                       position,
@@ -216,13 +214,6 @@ export default function MapView({ places }: MapViewProps) {
 
                     overlay.setMap(mapInstance);
                     overlayRef.current = overlay;
-                    const anchorEl = content.querySelector("a");
-                    if (anchorEl instanceof HTMLElement) {
-                      maps.event.preventMap(anchorEl);
-                      anchorEl.addEventListener("click", (domEvent) =>
-                        domEvent.stopPropagation()
-                      );
-                    }
                     ensureOverlayVisible(maps, mapInstance, content);
                   });
 

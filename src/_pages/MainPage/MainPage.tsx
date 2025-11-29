@@ -4,16 +4,20 @@ import { useMemo, useState } from "react";
 
 import { usePlacesQuery } from "@/api/places.query";
 import MapView from "@/components/main/MapView/MapView";
+import PlaceDetailModal from "@/components/main/PlaceDetailModal/PlaceDetailModal";
 import { neighborhood } from "@/components/main/main.constants";
 
 import styles from "./MainPage.module.scss";
 import clsx from "clsx";
+import { usePlaceSelection } from "@/components/main/hooks/usePlaceSelection";
 
 const MainPage = () => {
   const { data, isLoading, isError, error } = usePlacesQuery();
   const [selectedNeighborhood, setSelectedNeighborhood] = useState("전체");
 
   const places = useMemo(() => data?.places ?? [], [data]);
+  const { selectedPlace, handlePlaceSelect, handleDialogOpenChange } =
+    usePlaceSelection(places);
 
   const filteredPlaces = useMemo(() => {
     if (selectedNeighborhood === "전체") {
@@ -77,9 +81,16 @@ const MainPage = () => {
 
           {canShowMap && (
             <>
-              <MapView places={filteredPlaces} />
+              <MapView
+                places={filteredPlaces}
+                onSelectPlace={handlePlaceSelect}
+              />
               {showEmptyState && (
-                <div className={styles.mapOverlay} role="status" aria-live="polite">
+                <div
+                  className={styles.mapOverlay}
+                  role="status"
+                  aria-live="polite"
+                >
                   선택한 카테고리에 해당하는 장소 정보가 없습니다.
                 </div>
               )}
@@ -87,6 +98,12 @@ const MainPage = () => {
           )}
         </div>
       </section>
+
+      <PlaceDetailModal
+        place={selectedPlace}
+        open={Boolean(selectedPlace)}
+        onOpenChange={handleDialogOpenChange}
+      />
     </main>
   );
 };

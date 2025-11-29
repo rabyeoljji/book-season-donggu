@@ -2,10 +2,8 @@
 
 import * as Dialog from "@radix-ui/react-dialog";
 import dynamic from "next/dynamic";
-import { notFound, useRouter } from "next/navigation";
-import { useState } from "react";
+import type { ReactNode } from "react";
 
-import { usePlaceQuery } from "@/api/places.query";
 import type { Place } from "@/types/place";
 
 import styles from "./PlaceDetailModal.module.scss";
@@ -27,7 +25,7 @@ type PlaceDetailContentProps = { place?: Place };
 export const PlaceDetailContainer = ({
   children,
 }: {
-  children: React.ReactNode;
+  children: ReactNode;
 }) => {
   return <div className={styles.infoContainer}>{children}</div>;
 };
@@ -155,47 +153,22 @@ export const PlaceDetailContent = ({ place }: PlaceDetailContentProps) => (
 );
 
 type PlaceDetailModalProps = {
-  id: number;
+  place?: Place | null;
+  open: boolean;
+  onOpenChange: (open: boolean) => void;
 };
 
-const PlaceDetailModal = ({ id }: PlaceDetailModalProps) => {
-  const router = useRouter();
-  const [isOpen, setIsOpen] = useState(true);
-
-  const { data: place, isError } = usePlaceQuery(id);
-
-  const handleOpenChange = (open: boolean) => {
-    setIsOpen(open);
-
-    if (open) {
-      return;
-    }
-
-    if (typeof window === "undefined") {
-      router.replace("/");
-      return;
-    }
-
-    const state = window.history.state as { idx?: number } | null;
-    const hasNextHistory = typeof state?.idx === "number" && state.idx > 0;
-    const hasInternalReferrer =
-      Boolean(document.referrer) &&
-      document.referrer.startsWith(window.location.origin);
-
-    if (hasNextHistory || hasInternalReferrer) {
-      router.back();
-      return;
-    }
-
-    router.replace("/");
-  };
-
-  if (isError) {
-    notFound();
+const PlaceDetailModal = ({
+  place,
+  open,
+  onOpenChange,
+}: PlaceDetailModalProps) => {
+  if (!place) {
+    return null;
   }
 
   return (
-    <Dialog.Root open={isOpen} onOpenChange={handleOpenChange}>
+    <Dialog.Root open={open} onOpenChange={onOpenChange}>
       <Dialog.Portal>
         <Dialog.Overlay className={styles.overlay} />
         <Dialog.Content className={styles.content}>
