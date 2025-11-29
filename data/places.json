@@ -650,7 +650,7 @@
         "문화전당역 4번출구"
       ],
       "info": [
-        "문화창조원 안내데스크에서 폐현수막을 재활용한 돗자리 무료 대여 가능",
+        "SNS에 피크닉세트(돗자리 포함) 게시물 올리면 여행자의zip에서 무료 대여 가능",
         "문화전당 주차장 or 근처 공영주차장 이용"
       ],
       "forbidden": [
@@ -1121,7 +1121,7 @@
         "독서모임"
       ],
       "category": "CAFE",
-      "neighborhood": "학동",
+      "neighborhood": "서남동",
       "oneLineReview": "아늑한 분위기와 푸릇푸릇한 식물이 반겨주는\n정글 북카페",
       "images": [
         "/images/place_40_1.jpg",
@@ -1148,7 +1148,7 @@
         "책"
       ],
       "category": "CAFE",
-      "neighborhood": "학동",
+      "neighborhood": "서남동",
       "oneLineReview": "책과 예술이 있는 미술관 같은 카페!",
       "images": [
         "/images/place_41_1.jpg",
@@ -1176,7 +1176,7 @@
         "책"
       ],
       "category": "CAFE",
-      "neighborhood": "학동",
+      "neighborhood": "서남동",
       "oneLineReview": "레트로 감성과 한옥의 분위기가 어우러진\n사색의 공간에서 차분하게 독서 어때요?",
       "images": [
         "/images/place_42_1.jpg",
