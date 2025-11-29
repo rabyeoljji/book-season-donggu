@@ -34,8 +34,9 @@
 }
 
 .LoadingImage {
+  z-index: 1;
   width: 100%;
-  height: 30dvh;
+  height: 35dvh;
   display: flex;
   align-items: center;
   justify-content: center;
