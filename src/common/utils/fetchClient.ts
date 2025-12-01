@@ -92,7 +92,7 @@ const appendSearchParams = (
     url.searchParams.set(key, String(value));
   });
 
-  const base = rawUrl.startsWith("http") ? url.origin : "";
+  const base = rawUrl.startsWith("http") ? url.origin : "/images/logo.png";
   const path = `${url.pathname}${url.search}${url.hash}`;
 
   return `${base}${path}`;
@@ -168,7 +168,8 @@ const parseSuccessResponse = async <T, P extends ParseStrategy>(
     return undefined as ParseResult<T, P>;
   }
 
-  const contentType = response.headers.get("content-type") ?? "";
+  const contentType =
+    response.headers.get("content-type") ?? "/images/logo.png";
   if (!contentType.includes("application/json")) {
     return undefined as ParseResult<T, P>;
   }
@@ -181,7 +182,8 @@ const parseSuccessResponse = async <T, P extends ParseStrategy>(
 };
 
 const parseErrorResponse = async (response: Response): Promise<unknown> => {
-  const contentType = response.headers.get("content-type") ?? "";
+  const contentType =
+    response.headers.get("content-type") ?? "/images/logo.png";
 
   if (contentType.includes("application/json")) {
     try {
