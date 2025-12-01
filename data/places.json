@@ -168,7 +168,7 @@
       ],
       "category": "CAFE",
       "neighborhood": "지원동",
-      "oneLineReview": "/images/logo.png",
+      "oneLineReview": "",
       "images": [
         "/images/place_5_1.jpg"
       ],
@@ -331,8 +331,8 @@
         "갤러리"
       ],
       "category": "ETC",
-      "neighborhood": "/images/logo.png",
-      "oneLineReview": "/images/logo.png",
+      "neighborhood": "",
+      "oneLineReview": "",
       "images": [
         "/images/place_11_1.jpg",
         "/images/place_11_2.jpg"
@@ -1659,7 +1659,9 @@
       "neighborhood": "학운동",
       "oneLineReview": "새가 지저귀는 소리와 함께\n맑은 공기를 마시며 독서 어때요?",
       "images": [
-        "/images/logo.png"
+        "/images/place_60_1.jpg",
+        "/images/place_60_2.jpg",
+        "/images/place_60_3.jpg"
       ]
     },
     {
@@ -1685,7 +1687,8 @@
       "neighborhood": "학운동",
       "oneLineReview": "통유리 너머로 보이는 무등산의 풍경을\n눈에 담으며 차분한 독서하기 참 좋은 곳",
       "images": [
-        "/images/logo.png"
+        "/images/place_61_1.jpg",
+        "/images/place_61_2.jpg"
       ]
     },
     {
@@ -1729,7 +1732,10 @@
       "neighborhood": "학운동",
       "oneLineReview": "클래식 음악이 흘러나오는 미술관 같은 카페",
       "images": [
-        "/images/logo.png"
+        "/images/place_63_1.jpg",
+        "/images/place_63_2.jpg",
+        "/images/place_63_3.jpg",
+        "/images/place_63_4.jpg"
       ]
     },
     {
@@ -1779,7 +1785,10 @@
       "neighborhood": "학운동",
       "oneLineReview": "속이 뻥 뚫리는 자연을 눈에 담으며\n힐링하기 딱 좋은 곳",
       "images": [
-        "/images/logo.png"
+        "/images/place_65_1.jpg",
+        "/images/place_65_2.jpg",
+        "/images/place_65_3.jpg",
+        "/images/place_65_4.jpg"
       ]
     },
     {
@@ -1802,7 +1811,11 @@
       "neighborhood": "학운동",
       "oneLineReview": "잔잔한 음악이 흘러나오는 아늑하고 감각적인 공간",
       "images": [
-        "/images/logo.png"
+        "/images/place_66_1.jpg",
+        "/images/place_66_2.jpg",
+        "/images/place_66_3.jpg",
+        "/images/place_66_4.jpg",
+        "/images/place_66_5.jpg"
       ]
     },
     {
@@ -1855,7 +1868,10 @@
       "neighborhood": "동명동",
       "oneLineReview": "책 읽기 좋은 창가를 가지고 있는 매력적인 공간",
       "images": [
-        "/images/logo.png"
+        "/images/place_68_1.jpg",
+        "/images/place_68_2.jpg",
+        "/images/place_68_3.jpg",
+        "/images/place_68_4.jpg"
       ]
     },
     {
@@ -1943,7 +1959,9 @@
       "neighborhood": "동명동",
       "oneLineReview": "도심 속 작은 대나무 숲길에서 야외독서 어때요?",
       "images": [
-        "/images/logo.png"
+        "/images/place_71_1.jpg",
+        "/images/place_71_2.jpg",
+        "/images/place_71_3.jpg"
       ]
     },
     {
@@ -1968,7 +1986,9 @@
       "neighborhood": "동명동",
       "oneLineReview": "자신과 책에 집중하는 ‘쉼’의 시간",
       "images": [
-        "/images/logo.png"
+        "/images/place_72_1.jpg",
+        "/images/place_72_2.jpg",
+        "/images/place_72_3.jpg"
       ]
     },
     {
@@ -2117,7 +2137,9 @@
       "neighborhood": "산수동",
       "oneLineReview": "혼자서 조용히 책 읽고 싶을 때 들르기 좋은 곳",
       "images": [
-        "/images/logo.png"
+        "/images/place_77_1.jpg",
+        "/images/place_77_2.jpg",
+        "/images/place_77_3.jpg"
       ]
     },
     {
@@ -2232,7 +2254,10 @@
       "neighborhood": "산수동",
       "oneLineReview": "날씨 좋은 날에 따스한 햇살 받으며\n기분 좋은 야외독서 어때요?",
       "images": [
-        "/images/logo.png"
+        "/images/place_81_1.jpg",
+        "/images/place_81_2.jpg",
+        "/images/place_81_3.jpg",
+        "/images/place_81_4.jpg"
       ]
     },
     {
@@ -2257,7 +2282,12 @@
       "neighborhood": "산수동",
       "oneLineReview": "햇빛이 잘 들어와 아늑한 분위기를\n자아내는 전통과 현대가 합쳐진 공간",
       "images": [
-        "/images/logo.png"
+        "/images/place_82_1.jpg",
+        "/images/place_82_2.jpg",
+        "/images/place_82_3.jpg",
+        "/images/place_82_4.jpg",
+        "/images/place_82_5.jpg",
+        "/images/place_82_6.jpg"
       ]
     },
     {
@@ -2309,7 +2339,11 @@
       "neighborhood": "산수동",
       "oneLineReview": "정감 있고 아늑한 분위기의 카페에서 편안한 독서 어때요?",
       "images": [
-        "/images/logo.png"
+        "/images/place_84_1.jpg",
+        "/images/place_84_2.jpg",
+        "/images/place_84_3.jpg",
+        "/images/place_84_4.jpg",
+        "/images/place_84_5.jpg"
       ]
     },
     {
@@ -2389,7 +2423,12 @@
       "neighborhood": "산수동",
       "oneLineReview": "나만 알고 싶은 아지트 같은 분위기의 카페",
       "images": [
-        "/images/logo.png"
+        "/images/place_87_1.jpg",
+        "/images/place_87_2.jpg",
+        "/images/place_87_3.jpg",
+        "/images/place_87_4.jpg",
+        "/images/place_87_5.jpg",
+        "/images/place_87_6.jpg"
       ]
     },
     {
@@ -2415,7 +2454,9 @@
       "neighborhood": "서남동",
       "oneLineReview": "이국적이면서도 편안한 분위기의, 재즈가 흘러나오는 카페",
       "images": [
-        "/images/logo.png"
+        "/images/place_88_1.jpg",
+        "/images/place_88_2.jpg",
+        "/images/place_88_3.jpg"
       ]
     },
     {
@@ -2470,7 +2511,10 @@
       "neighborhood": "서남동",
       "oneLineReview": "조용한 분위기와 음악이 함께하는 한옥 카페",
       "images": [
-        "/images/logo.png"
+        "/images/place_90_1.jpg",
+        "/images/place_90_2.jpg",
+        "/images/place_90_3.jpg",
+        "/images/place_90_4.jpg"
       ]
     },
     {
@@ -2524,7 +2568,11 @@
       "neighborhood": "서남동",
       "oneLineReview": "주택을 개조해 만든 아늑하고 따뜻한 집 같은 카페",
       "images": [
-        "/images/logo.png"
+        "/images/place_92_1.jpg",
+        "/images/place_92_2.jpg",
+        "/images/place_92_3.jpg",
+        "/images/place_92_4.jpg",
+        "/images/place_92_5.jpg"
       ]
     },
     {
@@ -2549,7 +2597,7 @@
       "neighborhood": "서남동",
       "oneLineReview": "낮과 밤처럼 비슷한 듯 다른 두 개의 컨셉이 공존하는 카페",
       "images": [
-        "/images/logo.png"
+        ""
       ]
     },
     {
@@ -2576,7 +2624,7 @@
       "neighborhood": "서남동",
       "oneLineReview": "들어가자마자 나는 빵 냄새와 함께\n오후의 은근한 햇살이 잘 어우러지는\n책 읽기 좋은 공간",
       "images": [
-        "/images/logo.png"
+        ""
       ]
     },
     {
@@ -2631,7 +2679,9 @@
       "neighborhood": "서남동",
       "oneLineReview": "노랑과 갈색, 파랑의 조화가 돋보이는 느낌 좋은 카페",
       "images": [
-        "/images/logo.png"
+        "/images/place_96_1.jpg",
+        "/images/place_96_2.jpg",
+        "/images/place_96_3.jpg"
       ]
     },
     {
@@ -2657,7 +2707,8 @@
       "neighborhood": "서남동",
       "oneLineReview": "따스하고 아늑한 분위기의 카페",
       "images": [
-        "/images/logo.png"
+        "/images/place_97_1.jpg",
+        "/images/place_97_2.jpg"
       ]
     },
     {
@@ -2709,7 +2760,8 @@
       "neighborhood": "서남동",
       "oneLineReview": "영화 관련 소품으로 꾸며진\n감각적인 바에서 책 한 잔 어때요?",
       "images": [
-        "/images/logo.png"
+        "/images/place_99_1.jpg",
+        "/images/place_99_2.jpg"
       ]
     },
     {
@@ -2736,7 +2788,8 @@
       "neighborhood": "서남동",
       "oneLineReview": "예술과 음악이 공존하는 특별한 카페에서 독서 어때요?",
       "images": [
-        "/images/logo.png"
+        "/images/place_100_1.jpg",
+        "/images/place_100_2.jpg"
       ]
     },
     {
@@ -2762,7 +2815,10 @@
       "neighborhood": "서남동",
       "oneLineReview": "공간이 넓어 탁 트인 개방감이 있는\n여유로운 분위기의 북카페",
       "images": [
-        "/images/logo.png"
+        "/images/place_101_1.jpg",
+        "/images/place_101_2.jpg",
+        "/images/place_101_3.jpg",
+        "/images/place_101_4.jpg"
       ]
     },
     {
@@ -2842,7 +2898,8 @@
       "neighborhood": "지원동",
       "oneLineReview": "여름에 독서하러 가기 좋은 시원하고 청량한 느낌의 카페",
       "images": [
-        "/images/logo.png"
+        "/images/place_104_1.jpg",
+        "/images/place_104_2.jpg"
       ]
     },
     {
@@ -2868,7 +2925,8 @@
       "neighborhood": "지원동",
       "oneLineReview": "은은한 차향과 아늑하고 편안한 분위기 속에서\n차를 따라 마시며 온전한 독서를 즐길 수 있는 곳",
       "images": [
-        "/images/logo.png"
+        "/images/place_105_1.jpg",
+        "/images/place_105_2.jpg"
       ]
     },
     {
@@ -2894,7 +2952,8 @@
       "neighborhood": "지원동",
       "oneLineReview": "독특한 친환경적 분위기에서\n편하게 독서할 수 있는 동네 카페",
       "images": [
-        "/images/logo.png"
+        "/images/place_106_1.jpg",
+        "/images/place_106_2.jpg"
       ]
     },
     {
@@ -2921,7 +2980,8 @@
       "neighborhood": "지원동",
       "oneLineReview": "도서관 특유의 고요함이 흐르는 공간",
       "images": [
-        "/images/logo.png"
+        "/images/place_107_1.jpg",
+        "/images/place_107_2.jpg"
       ]
     },
     {
@@ -2946,7 +3006,8 @@
       "neighborhood": "지원동",
       "oneLineReview": "조용하고 한적한 야외공간으로\n날 좋을 때 독서하기 좋은 곳",
       "images": [
-        "/images/logo.png"
+        "/images/place_108_1.jpg",
+        "/images/place_108_2.jpg"
       ]
     },
     {
@@ -2999,7 +3060,8 @@
       "neighborhood": "지원동",
       "oneLineReview": "책 읽기 좋은 분위기의 색감 좋은 카페",
       "images": [
-        "/images/logo.png"
+        "/images/place_110_1.jpg",
+        "/images/place_110_2.jpg"
       ]
     },
     {
@@ -3231,7 +3293,10 @@
       "neighborhood": "충장동",
       "oneLineReview": "조용하고 한적한 분위기 속에서\n여유롭게 책을 읽을 수 있는 카페",
       "images": [
-        "/images/logo.png"
+        "/images/place_118_1.jpg",
+        "/images/place_118_2.jpg",
+        "/images/place_118_3.jpg",
+        "/images/place_118_4.jpg"
       ]
     },
     {
@@ -3257,7 +3322,11 @@
       "neighborhood": "충장동",
       "oneLineReview": "다양한 유형의 좌석과 넓은 공간 속에서\n여유롭게 책 읽기 좋은 곳",
       "images": [
-        "/images/logo.png"
+        "/images/place_119_1.jpg",
+        "/images/place_119_2.jpg",
+        "/images/place_119_3.jpg",
+        "/images/place_119_4.jpg",
+        "/images/place_119_5.jpg"
       ]
     },
     {
@@ -3282,7 +3351,10 @@
       "neighborhood": "충장동",
       "oneLineReview": "은은한 향내가 풍겨오는 아늑한 분위기의 카페",
       "images": [
-        "/images/logo.png"
+        "/images/place_120_1.jpg",
+        "/images/place_120_2.jpg",
+        "/images/place_120_3.jpg",
+        "/images/place_120_4.jpg"
       ]
     },
     {
@@ -3308,7 +3380,8 @@
       "neighborhood": "충장동",
       "oneLineReview": "사장님이 직접 만든 소품이 가득한\n아기자기한 분위기의 카페",
       "images": [
-        "/images/logo.png"
+        "/images/place_121_1.jpg",
+        "/images/place_121_2.jpg"
       ]
     },
     {
@@ -3388,7 +3461,12 @@
       "neighborhood": "충장동",
       "oneLineReview": "깔끔하고 잔잔한 분위기의 카페",
       "images": [
-        "/images/logo.png"
+        "/images/place_124_1.jpg",
+        "/images/place_124_2.jpg",
+        "/images/place_124_3.jpg",
+        "/images/place_124_4.jpg",
+        "/images/place_124_5.jpg",
+        "/images/place_124_6.jpg"
       ]
     },
     {
@@ -3413,7 +3491,8 @@
       "neighborhood": "충장동",
       "oneLineReview": "실내, 실외 공간이 있어 원하는 곳에서\n편하게 시간 보내기 가능한 장소",
       "images": [
-        "/images/logo.png"
+        "/images/place_125_1.jpg",
+        "/images/place_125_2.jpg"
       ]
     }
   ]
