@@ -2049,7 +2049,10 @@
       "neighborhood": "동명동",
       "oneLineReview": "골목으로 들어가야 보이는 숨겨진 선물 같은\n공간에서 한적하게 책 한 권 어때요?",
       "links": [
-        "https://gjdgit.kr/"
+        {
+          "label": "동구 청년센터 홈페이지",
+          "url": "https://gjdgit.kr/"
+        }
       ],
       "images": [
         "/images/place_74_1.jpg",

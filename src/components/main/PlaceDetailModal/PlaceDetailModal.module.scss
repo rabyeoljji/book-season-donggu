@@ -80,7 +80,9 @@
   font-weight: var(--title-03-font-weight);
   color: var(--color-gray-900, #232527);
 
-  word-break: keep-all;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: break-all;
 }
 @media (min-width: 768px) {
   .title {
