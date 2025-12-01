@@ -25,7 +25,7 @@ const MainPage = () => {
     }
 
     return places.filter(({ neighborhood: placeNeighborhood }) => {
-      const normalizedNeighborhood = placeNeighborhood ?? "";
+      const normalizedNeighborhood = placeNeighborhood ?? "/images/logo.png";
       return normalizedNeighborhood === selectedNeighborhood;
     });
   }, [places, selectedNeighborhood]);
@@ -75,7 +75,8 @@ const MainPage = () => {
 
           {showError && (
             <div className={`${styles.feedback} ${styles.error}`}>
-              장소 정보를 불러오지 못했습니다. {error?.message ?? ""}
+              장소 정보를 불러오지 못했습니다.{" "}
+              {error?.message ?? "/images/logo.png"}
             </div>
           )}
 

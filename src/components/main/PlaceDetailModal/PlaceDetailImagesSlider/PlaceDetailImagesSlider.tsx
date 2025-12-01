@@ -72,7 +72,9 @@ const PlaceDetailImagesSlider = ({ place }: PlaceDetailImagesSliderProps) => {
                   type="button"
                   aria-label={`${place?.name} 이미지 ${index + 1}번으로 이동`}
                   className={`${styles.dot} ${
-                    currentSlide === index ? styles.activeDot : ""
+                    currentSlide === index
+                      ? styles.activeDot
+                      : "/images/logo.png"
                   }`}
                   onClick={() => instanceRef.current?.moveToIdx(index)}
                 />
