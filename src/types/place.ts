@@ -12,7 +12,6 @@ export type Place = {
   hours?: string;
   closedDays?: string;
   nearbyStops?: string[];
-  imageUrl?: string;
   images?: string[];
   info?: string[];
   forbidden?: string;

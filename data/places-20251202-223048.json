@@ -101,6 +101,12 @@
         "단체 대관은 동구청 문의를 통해 가능",
         "광주 서석교회 주차장을 제외한 근처 주차장은 모두 유료"
       ],
+      "links": [
+        {
+          "label": "동구 인문학당 안내",
+          "url": "https://www.donggu.kr/humancity/menu.es?mid=a10301010000"
+        }
+      ],
       "tags": [
         "문화공간",
         "도서관"
@@ -114,13 +120,7 @@
         "/images/place_3_3.jpg",
         "/images/place_3_4.jpg"
       ],
-      "imageSource": "인문도시 동구 온라인기록관 - ‘동구 인문학당’",
-      "links": [
-        {
-          "label": "동구 인문학당 안내",
-          "url": "https://www.donggu.kr/humancity/menu.es?mid=a10301010000"
-        }
-      ]
+      "imageSource": "인문도시 동구 온라인기록관 - ‘동구 인문학당’"
     },
     {
       "id": 4,
@@ -168,6 +168,7 @@
       ],
       "category": "CAFE",
       "neighborhood": "지원동",
+      "oneLineReview": "",
       "images": [
         "/images/place_5_1.jpg"
       ],
@@ -330,6 +331,8 @@
         "갤러리"
       ],
       "category": "ETC",
+      "neighborhood": "",
+      "oneLineReview": "",
       "images": [
         "/images/place_11_1.jpg",
         "/images/place_11_2.jpg"
@@ -2045,16 +2048,16 @@
       "category": "ETC",
       "neighborhood": "동명동",
       "oneLineReview": "골목으로 들어가야 보이는 숨겨진 선물 같은\n공간에서 한적하게 책 한 권 어때요?",
-      "images": [
-        "/images/place_74_1.jpg",
-        "/images/place_74_2.jpg",
-        "/images/place_74_3.jpg"
-      ],
       "links": [
         {
           "label": "동구 청년센터 홈페이지",
           "url": "https://gjdgit.kr/"
         }
+      ],
+      "images": [
+        "/images/place_74_1.jpg",
+        "/images/place_74_2.jpg",
+        "/images/place_74_3.jpg"
       ]
     },
     {
@@ -2597,9 +2600,7 @@
       "neighborhood": "서남동",
       "oneLineReview": "낮과 밤처럼 비슷한 듯 다른 두 개의 컨셉이 공존하는 카페",
       "images": [
-        "/images/place_93_1.jpg",
-        "/images/place_93_2.jpg",
-        "/images/place_93_3.jpg"
+        ""
       ]
     },
     {
@@ -2626,9 +2627,7 @@
       "neighborhood": "서남동",
       "oneLineReview": "들어가자마자 나는 빵 냄새와 함께\n오후의 은근한 햇살이 잘 어우러지는\n책 읽기 좋은 공간",
       "images": [
-        "/images/place_94_1.jpg",
-        "/images/place_94_2.jpg",
-        "/images/place_94_3.jpg"
+        ""
       ]
     },
     {
@@ -3345,7 +3344,7 @@
       ],
       "info": [
         "건물 간판 따로 없음",
-        "유료 주차 가능 (충장 주차장 광주 동구 충장로 14-12): 최초 30분 1,500원, 추가 요금 30분당 1,500원 (최대 30,000원)"
+        "유료 주차 가능 (충장 주차장 광주 동구 충장로 14-12): 최초 30분 1,500원, 추가 요금 30분당 1,500원 (최대 30,000원) "
       ],
       "tags": [
         "카페",
